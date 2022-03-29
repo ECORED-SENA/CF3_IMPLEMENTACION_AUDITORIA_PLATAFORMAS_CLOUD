@@ -11,9 +11,9 @@
     
     .row.mb-5.justify-content-center
       .col-lg-12
-        figure
+        figure(data-aos="fade-down")
           img(src='@/assets/curso/intro-banner.png' alt='Introducción')
-      .col-lg-11.bg-degrade-gris.tarjeta.neg--top.p-4          
+      .col-lg-11.bg-degrade-gris-horizontal.tarjeta.neg--top.p-4(data-aos="fade")   
         p.mb-0 Se da la bienvenida al componente formativo <b>“Gestión del riesgo y seguridad en servicios en la nube”</b>. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
 
 

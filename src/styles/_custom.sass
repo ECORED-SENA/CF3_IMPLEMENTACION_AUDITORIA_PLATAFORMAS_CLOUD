@@ -5,10 +5,27 @@
   align-content: center
   align-items: center
 
+.banner-interno__fondo 
+  background-image: url('../assets/curso/banner-interno.png') !important
 
-.bg-degrade-gris 
+
+.bg-degrade-gris-horizontal 
   background: rgb(222,222,222)
   background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
+.bg-degrade-gris-vertical
+  background: rgb(246,246,246)
+  background: linear-gradient(275deg, rgba(246,246,246,0) 0%, rgba(239,237,237,1) 100%)
+.bg-absoluto
+  background-position: 50% 79%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+
+.bg-acento-contenido2
+  background-color: #FFE597    
 
 
 .neg--top  
