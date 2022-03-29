@@ -334,6 +334,116 @@
           .col-md-6
             figure
               img(src='@/assets/curso/tema1-3-4-tab6.jpg', alt='Imagen decorativa')
+  
+
+    .row.bg-tema-1-2
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.justify-content-center
+          .col-md-12
+            p.mb-4(data-aos="fade") Es preciso resaltar que la regulación sobre datos personales en Colombia impone cargas probatorias en cabeza de los responsables del tratamiento. Es así como en el siguiente recurso educativo se explican en brevedad:
+          .col-md-10
+            ul.lista-ul--color.color-acento-botones.mb-4
+              li 
+                i.fas.fa-play
+                | Relevancia de la ubicación de los datos personales.
+              li 
+                i.fas.fa-play
+                | La localización de los datos es necesaria porque las garantías exigibles para su protección rigen de diferente forma, según los países en que se encuentren. 
+              li 
+                i.fas.fa-play
+                | Existen acuerdos bilaterales o reglamentos vinculantes para diferentes regiones geográficas, estas ofrecen garantías suficientes y no se considera legalmente que exista una transferencia internacional de datos. 
+                br
+                | Si los datos están localizados en países que no pertenecen al mismo espacio o región amparada por acuerdos en este nivel, al tener una transferencia internacional de datos, dependiendo del país en que se encuentren, deberán proporcionarse garantía
+              li 
+                i.fas.fa-play
+                | Las garantías consideradas adecuadas para las transferencias internacionales de datos regulan bajo consideraciones como:
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Conservar prueba de haber informado al titular al momento de solicitarle la autorización, de manera clara y expresa lo que ordena el Artículo 12 de la Ley 1581 de 2012 y, cuando el titular lo solicite, entregarle copia de ello.
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Solicitar y conservar en las condiciones previstas en la presente ley, copia de la respectiva autorización otorgada por el titular.
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Proveer una descripción de los procedimientos usados para la recolección, almacenamiento, uso, circulación y supresión de información, como también la descripción de las finalidades para las cuales la información es recolectada y una explicación sobre la necesidad de recolectar los datos en cada caso.
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Documentar los procedimientos para el tratamiento, conservación y supresión de los datos personales de conformidad con las disposiciones aplicables a la materia de que se trate.
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Desarrollar sus políticas para el tratamiento de los datos personales y velar porque los encargados del tratamiento den cabal cumplimiento a las mismas.
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Conservar el modelo del aviso de privacidad que utilicen para cumplir con el deber que tienen de dar a conocer a los titulares la existencia de políticas del tratamiento de la información y la forma de acceder a las mismas, mientras se traten datos personales conforme al mismo y perduren las obligaciones que de este se deriven.
+          .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
+            p.mb-0 Adoptar las medidas razonables para asegurar que los datos personales que reposan en las bases de datos sean precisos y suficientes y, cuando así lo solicite el titular o cuando el responsable haya podido advertirlo, sean actualizados, rectificados o suprimidos, de tal manera que satisfagan los propósitos del tratamiento.          
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-11
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 El reto de las organizaciones frente al Principio de responsabilidad demostrada va mucho más allá de la mera expedición de documentos o redacción de políticas. Se trata de una actividad constante que exige demostrar un cumplimiento real y efectivo en la práctica de sus labores.
+
+
+    .titulo-tercero.mb-4(data-aos="fade-right") 
+      h3 1.3.5	Medidas de seguridad exigibles
+
+
+    .row
+      .col-md-8.mb-4.mb-md-0(data-aos="fade-right")  
+        p Las medidas de seguridad son indispensables para garantizar la integridad de los datos personales, evitar accesos no autorizados y recuperar la información en caso de que se produzcan incidencias de seguridad.
+        p.mb-5  En la Guía para la implementación del principio de responsabilidad demostrada (accountability), establecida por las Superintendencia de Industria y Comercio se indica que las garantías, medidas de seguridad y mecanismos que garanticen la protección de datos personales serán los resultantes de  un sistema de administración de riesgos asociados al tratamiento de datos personales, con el fin de que permitan “identificar, medir, controlar y monitorear todos aquellos hechos o situaciones que puedan incidir en la debida administración del riesgo a que están expuestos en desarrollo del cumplimiento de las normas de protección de datos personales”.
+        p Por su parte, la evaluación del riesgo o impacto en la privacidad debería incluir, al menos:
+      .col-md-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema1-3-5-img.png' alt='Imagen decorativa')
+
+    .row.justify-content-center.bg-2.mb-4.mx-1(data-aos="fade-down")
+      .col-md-11.py-4
+        ul.lista-ul--color.color-acento-botones.mb-0
+          li 
+            i.fas.fa-play
+            | Una descripción detallada de las operaciones de tratamiento de datos personales que involucra el proyecto de comercio electrónico.
+          li 
+            i.fas.fa-play
+            | Una evaluación de los riesgos específicos para los derechos y libertades de los titulares de los datos personales. 
+          li 
+            i.fas.fa-play
+            | La identificación y clasificación de los riesgos, así como la adopción de medidas para mitigarlos.
+          li 
+            i.fas.fa-play
+            | Las medidas previstas para afrontar los riesgos, incluidas las garantías, los controles de seguridad, el diseño de software, las tecnologías y mecanismos que garanticen la protección de datos personales, teniendo en cuenta los derechos e intereses legítimos de los titulares de los datos y de otras personas eventualmente afectadas.
+
+    .row.mb-md-5
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right")  
+        img(src='@/assets/curso/tema1-3-5-img2.png' alt='Imagen decorativa')
+      .col-md-6(data-aos="fade-left")
+        p Los resultados de este estudio, junto con las estrategias para mitigar los riesgos, hacen parte de la aplicación del principio de privacidad desde el diseño y por defecto.
+        p En la gestión de los encargados del tratamiento en las transmisiones internacionales de datos personales, los sujetos obligados deben tomar las medidas necesarias para asegurar la protección de los datos personales, cuyo tratamiento es realizado por los encargados, a través de transmisiones internacionales de datos personales. Para ello, se deben tener en cuenta:
+
+    .row.tema1-1-bg-slider.tarjeta.mb-4(data-aos="fade-down") 
+      .col-md-12.pb-3.pt-4
+        SlyderA.tema1-1(tipo="b")
+          .row.justify-content-center
+            .col-md-10.mb-4.mb-md-2.p-0
+              img(src='@/assets/curso/tema1-3-5-slider1.png', alt='Imagen decorativa')          
+            .col-md-10.tema1-1-bg-slider-content.py-3
+              p.text-center.mb-1 Disposiciones que incluyan requisitos para que los encargados cumplan con las normas colombianas de protección de datos de forma específica, adicionalmente las políticas de tratamiento del responsable.
+          .row.justify-content-center
+            .col-md-10.mb-4.mb-md-2.p-0
+              img(src='@/assets/curso/tema1-3-5-slider2.png', alt='Imagen decorativa')          
+            .col-md-10.tema1-1-bg-slider-content.py-3
+              p.text-center.mb-1 Formación y educación para los empleados del encargado que tienen acceso a la información personal.
+          .row.justify-content-center
+            .col-md-10.mb-4.mb-md-2.p-0
+              img(src='@/assets/curso/tema1-3-5-slider3.png', alt='Imagen decorativa')          
+            .col-md-10.tema1-1-bg-slider-content.py-3
+              p.text-center.mb-1 Exigencia de adherencia a las políticas de tratamiento si se utilizan subcontratistas.
+          .row.justify-content-center
+            .col-md-10.mb-4.mb-md-2.p-0
+              img(src='@/assets/curso/tema1-3-5-slider4.png', alt='Imagen decorativa')          
+            .col-md-10.tema1-1-bg-slider-content.py-3
+              p.text-center.mb-1 Relación de auditorías internas y/o externas.
+          .row.justify-content-center
+            .col-md-10.mb-4.mb-md-2.p-0
+              img(src='@/assets/curso/tema1-3-5-slider5.png', alt='Imagen decorativa')          
+            .col-md-10.tema1-1-bg-slider-content.py-3
+              p.text-center.mb-1 Acuerdos con los encargados y sus empleados, aceptando que cumplirán con las políticas y protocolos del responsable del tratamiento.        
+
+    p.mb-5.text-center(data-aos="fade") No se debe olvidar las garantías de cumplimiento y adherencia continua de estas medidas con base al programa integral de gestión de datos personales.
+
 
 
 
