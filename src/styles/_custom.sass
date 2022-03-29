@@ -4,6 +4,8 @@
   display: flex
   align-content: center
   align-items: center
+.italic  
+  font-style: italic
 
 .banner-interno__fondo 
   background-image: url('../assets/curso/banner-interno.png') !important
@@ -15,6 +17,32 @@
 .bg-degrade-gris-vertical
   background: rgb(246,246,246)
   background: linear-gradient(275deg, rgba(246,246,246,0) 0%, rgba(239,237,237,1) 100%)
+.bg-tema1
+  background-image: url('../assets/curso/tema1-bg1.png')
+  background-position: 50% 47%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+.bg-tema-1-1
+  background-image: url('../assets/curso/tema1-1-bg1.png')
+  background-position: 50% 47%
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem   
+.tema1-1-bg-slider
+  background-image: url('../assets/curso/tema1-1-bg-slider.png')     
+  background-size: cover
+  background-repeat: no-repeat
+.tema1-1-bg-slider-content
+  background-color: #E7CD66  
+  border-bottom-left-radius: 27px
+  border-bottom-right-radius: 27px
 .bg-absoluto
   background-position: 50% 79%
   background-size: contain
@@ -23,6 +51,11 @@
   @media screen and ( max-width: 992px)
     background-size: cover 
     margin-inline: -1.4rem
+.esquina
+  background-image: url('../assets/curso/esquina.png')    
+  background-repeat: no-repeat
+  background-position: bottom left
+
 
 .bg-acento-contenido2
   background-color: #FFE597    
@@ -32,3 +65,51 @@
   margin-top: -2.5rem
   @media (max-width: 992px)  
     margin: 0    
+
+
+.titulo-personalizado
+  background-color: #12263F
+  width: fit-content
+  padding: 7px 15px 
+
+
+.slyder-f.tema1-1 .slyder-f__btn
+  width: 9%  
+.slyder-f.tema1-1 .slyder-f__btn i
+  font-size: 1.5rem
+  color: #FFF
+  background-color: #E2C140
+  border-radius: 50%
+  width: 55px
+  height: 38px
+  display: flex
+  justify-content: center
+  align-items: center
+.slyder-f.tema1-1  .slyder-f__main
+  border-radius: 35px
+  border: 1px solid #f7f7f7  
+  -webkit-box-shadow: 0px 3px 6px 2px rgba(240,240,240,1)
+  -moz-box-shadow: 0px 3px 6px 2px rgba(240,240,240,1)
+  box-shadow: 0px 3px 6px 2px rgba(240,240,240,1)
+.tema1-1 .slyder-a__btn--sigt, .tema1-1 .slyder-a__btn--atrs
+  background-color: rgb(2,127,188)
+  background-color: linear-gradient(0deg, rgba(2,127,188,1) 0%, rgba(3,155,229,1) 100%)
+  background-image: url('../assets/curso/flecha-blanca.svg') !important
+  background-size: 19px 19px
+.tema1-1 .slyder-a__tipo-b .slyder-a__btn--atrs
+  transform: rotate(0deg)
+.tema1-1 .slyder-a__tipo-b .slyder-a__btn--sigt
+  transform: rotate(180deg) 
+.tema1-1 .slyder-a__tipo-b .slyder-a__btn--sigt .indicador__container
+  transform: rotate(180deg)  
+.tema1-1 .slyder-a__bullets__item--active
+  background-color: #E2C140 !important
+  border-color: #E2C140
+.tema1-1 .slyder-a__bullets__item
+  background-color: #2A81A5  
+  opacity: 1
+
+ 
+
+.cajon.color-acento-contenido
+  background-color: #F5E9BB    

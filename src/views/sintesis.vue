@@ -8,14 +8,14 @@
     .row.bg-degrade-gris-vertical.bg-absoluto
       .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
         .row.justify-content-center.align-items-center
-          .col-md-7(data-aos="fade-right")
+          .col-md-7.mb-md-0.mb-3(data-aos="fade-right")
             p No obstante y pese a la reducción de costos de operación, escalabilidad, reducción de costos de obsolescencia tecnológica, acceso a tecnología de punta e incluso rápida recuperación de información se encuentran algunos riesgos de cuidado que, si no son atendidos de manera temprana, pueden afectar el objetivo y propósito de la empresa al no contemplarlos cuando se lleva a cabo la implementación.
             p Todos los temas de seguridad tradicionales permanecen, pero la naturaleza de los riesgos, roles, responsabilidades y la implementación de los controles cambian, aunque el alcance general de la seguridad y el cumplimiento no lo haga, pueden agregarse nuevos actores o se hace redistribución de responsabilidades, pero es el controlador el de la información quien deberá estar presente y pendiente de minimizar los fallos, con el fin de generar un óptimo servicio.
           .col-md-5(data-aos="fade-left")
             img(src='@/assets/curso/sintesis-img.png' alt='Imagen decorativa')
           
     .row.justify-content-center.neg--top.mb-5
-      .col-md-10.bg-acento-contenido2.tarjeta.p-4(data-aos="fade-down")
+      .col-md-10.bg-acento-contenido2.p-4(data-aos="fade-down")
             p.mb-0 Basado en lo anterior, en el siguiente mapa conceptual, podrá tener un repaso breve de los contenidos vistos en este componente formativo:  
     
 
