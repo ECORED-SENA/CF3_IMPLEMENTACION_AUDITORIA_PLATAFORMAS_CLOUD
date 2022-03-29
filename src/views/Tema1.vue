@@ -161,11 +161,185 @@
 
 
     #t_1_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right") 
       h2 1.2	Perspectivas según los tipos de servicios y modelos cloud
 
+    .row.bg-tema-1-2
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.mb-5
+          .col-md-7(data-aos="fade-right")  
+            p El cliente que contrata a un prestador de servicios de computación en la nube tiene una obligación legal de rapidez para elegir únicamente un encargado que ofrezca garantías suficientes para aplicar medidas técnicas y organizativas apropiadas, de manera que el tratamiento esté conforme con los requisitos de la legislación aplicable y garantice la protección de los derechos del interesado.
+            p Esta rapidez se traducirá dadas las características propias de estos servicios, en una selección de requerimientos de información al proveedor de servicios que estén direccionados a ofrecer las garantías para la protección de los datos personales de los cuales es responsable; todo esto, necesario para decidir sobre la modalidad de nube y el tipo de servicios que contrata y de esta forma, hacer la mejor elección entre sus proveedores.
+            p En las administraciones públicas, la computación en la nube, debido al volumen y la sensibilidad de los datos que gestiona soporta unos riesgos específicos, estos deben analizarse de manera puntual, de acuerdo con los escenarios en donde se presente su uso, con lo cual se orienta para la disminución del riesgo el uso de cuidados en la implantación, evitando comprometer los derechos de autor y la seguridad de los ciudadanos. Por ello, es necesario tener presente que hay una regulación internacional en cuanto al movimiento de datos que es aplicable tanto al sector privado como al público.
+          .col-md-5(data-aos="fade-left")
+            img(src='@/assets/curso/tema1-2-img1.png' alt='Imagen decorativa')
 
+        .tema1-2.bloque-texto-g.color-secundario.p-3.p-sm-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1-2-img2.jpg')})`}" )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 En particular, debe tenerse muy presente que las autoridades competentes de terceros países en los que se traten datos personales en el marco de los servicios de computación en la nube podrían solicitar y acceder a la información de la cual las administraciones públicas son responsables, en algunos casos sin que se le informe de esta circunstancia. Por esta razón, el prestador de servicios de computación en la nube debe conocer la regulación existente en los países en donde se vayan a tratar los datos, y las decisiones que serían necesarias tomar al respecto. La trascendencia de estos posibles accesos es un factor muy relevante para decidir sobre la contratación de estos servicios y el proveedor que los preste.
+
+        Separador
+
+        .row.mb-5
+          .col-md-12
+            #t_1_3
+            .titulo-segundo.color-acento-contenido
+              h2 1.3	Estrategia y responsabilidad en protección de datos
+          .col-md-7(data-aos="fade-right")  
+            p Para poder determinar una estrategia en la transferencia de responsabilidades al proveedor de servicios en la nube, a continuación, se hace referencia del estándar para clientes que contraten servicios de computación en la nube, en particular las garantías exigibles que han de ser atendidas por el proveedor previo a una contratación.
+            p Es fundamental, incluso, legalmente exigible según la normativa aplicable en cada caso, la adhesión del encargado del tratamiento a un código de conducta aprobado o a un mecanismo de certificación aprobado como elemento para demostrar la existencia de las garantías suficientes.
+          .col-md-5(data-aos="fade-left")
+            img(src='@/assets/curso/tema1-2-img3.png' alt='Imagen decorativa')
+
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 1.3.1	Análisis previo antes de contratar servicios de computación en la nube
   
+    p.mb-5(data-aos="fade") El análisis previo a la contratación de servicios en la nube requiere tener presente condiciones específicas, como puede ver, a continuación:
+
+    figure.mb-5(data-aos="fade-down")
+      img(src='@/assets/curso/tema1-3-1-infog.svg', alt='Análisis previo antes de contratar servicios de computación en la nube')
+
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 1.3.2	Implicaciones del cliente en servicios en cloud
+
+    p.mb-5(data-aos="fade") El cliente que contrata servicios de computación en la nube sigue siendo responsable del tratamiento de los datos personales, aunque se contrate con una gran compañía multinacional la responsabilidad en términos de “accountability” no se desplaza al prestador del servicio, ni siquiera incorporando una cláusula en el contrato con esta finalidad.  
+
+    .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8
+          .bloque-texto-a__texto.p-4.ms-3
+            h4 Encargado del tratamiento
+            p.mb-0 El que ofrece la contratación de computación en nube es un prestador de servicios que en la ley de protección de datos aplicable tiene la calificación de ‘encargado del tratamiento’
+        .col-lg-4.mb-4.mb-lg-0
+          img(src='@/assets/curso/tema1-3-2-img.png', alt='Imagen decorativa')
+
+
+    .titulo-tercero.mb-4(data-aos="fade-right") 
+      h3 1.3.3	Legislación aplicable
+
+    p(data-aos="fade") El modelo de computación en la nube hace posible que tanto los proveedores de servicios como los datos almacenados en la nube se encuentren ubicados en cualquier punto del planeta, en cualquier caso, el cliente sigue siendo responsable del tratamiento de los datos, por lo que la normativa aplicable al cliente y al prestador del servicio es la local del país del cliente.
+    p.mb-4(data-aos="fade") La aplicación de dicha normativa no puede modificarse contractualmente y aunque le informen acerca de la disociación de los datos personales, no cambia la ley aplicable, ni la responsabilidad del cliente y del prestador del servicio.     
+
+    .bg-tema1-3-1.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+          img(src="@/assets/curso/tema1-3-3-img.png")
+        .col-md.col-lg-6
+          .titulo-segundo.color-acento-botones(data-aos="flip-up")
+            h2 Legislación actualizada en Colombia
+          p.mb-4 Existen repositorios útiles para identificar la legislación actualizada en Colombia, así como la vigente en otros países, uno de estos es la Red Iberoamericana de Protección de Datos, la cual puede ser consultada en el siguiente enlace:
+          a.boton.color-acento-botones.texto-blanco(href="https://www.redipd.org/es/legislacion?nid=83" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+
+
+    .titulo-tercero.mb-4(data-aos="fade-right") 
+      h3 1.3.4	Obligaciones del cliente de servicios en nube
+
+    p.mb-0(data-aos="fade") Se debe ser diligente en la elección del prestador del servicio para que le ofrezca garantías suficientes en el cumplimiento de la ley de protección de datos aplicable y en la protección de los derechos de los interesados.
+    p(data-aos="fade") Se debe formalizar un contrato con las garantías indicadas en el apartado “las garantías contractuales”.
+
+    p.mb-5(data-aos="fade") En particular, debe solicitar y obtener información sobre si intervienen o no terceras personas (subcontratistas) en la prestación de servicios de computación en la nube, esta es una condición muy habitual entre proveedores de servicios, de ser así se requiere:
+
+    .row.justify-content-center.mb-5
+      .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/tema1-3-4-infog.svg', alt='Obligaciones del cliente de servicios en la nube')
+      .col-md-5(data-aos="fade-left")
+        AcordionA.tema1-3-4(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Autorización previa")
+            .col-md-12.mb-4.mb-md-0.ps-md-5
+              p.mb-0 Dar su autorización previa y por escrito, a la participación de terceras empresas, al menos delimitando genéricamente los servicios en los que participarán, por ejemplo, en el alojamiento de datos. Para ello, el prestador del servicio de computación en la nube tiene que informarle sobre la tipología de servicios que pueden subcontratarse con terceros.
+          .row(titulo="Empresas que intervienen")
+            .col-md-12.mb-4.mb-md-0.ps-md-5
+              p.mb-0 Tiene que poder conocer las terceras empresas que intervienen, pudiendo acceder a una página web o a través de otras opciones que le facilite el prestador del servicio.
+          .row(titulo="Garantías jurídicas")
+            .col-md-12.mb-4.mb-md-0.ps-md-5
+              p.mb-0 El proveedor de la nube debe asumir en el contrato que los subcontratistas le ofrecen garantías jurídicas para el tratamiento de los datos equivalentes a los que él mismo asume.
+          .row(titulo="Clausulas contractuales")
+            .col-md-12.mb-4.mb-md-0.ps-md-5
+              p.mb-0 El contrato que firma ha de incorporar cláusulas contractuales para la protección de los datos personales según se detalla en los siguientes puntos.       
+
+
+    p.mb-4.text-center(data-aos="fade") Para la protección de los datos personales y en relación con las cláusulas contractuales es necesario:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
+        ul.lista-ul--color.color-acento-botones
+          li 
+            i.fas.fa-play
+            | Relevancia de la ubicación de los datos personales.
+          li 
+            i.fas.fa-play
+            | La localización de los datos es necesaria porque las garantías exigibles para su protección rigen de diferente forma, según los países en que se encuentren.
+          li 
+            i.fas.fa-play
+            | Existen acuerdos bilaterales o reglamentos vinculantes para diferentes regiones geográficas, estas ofrecen garantías suficientes y no se considera legalmente que exista una transferencia internacional de datos.  
+          li 
+            i.fas.fa-play
+            | Si los datos están localizados en países que no pertenecen al mismo espacio o región amparada por acuerdos en este nivel, al tener una transferencia internacional de datos, dependiendo del país en que se encuentren, deberán proporcionarse garantías jurídicas adecuadas. 
+          li 
+            i.fas.fa-play
+            | Las garantías consideradas adecuadas para las transferencias internacionales de datos regulan bajo consideraciones como:     
+      .col-md-5(data-aos="fade-left")
+        img(src='@/assets/curso/tema1-3-4-img.png', alt='Imagen decorativa')
+
+    h4.text-center Garantías de transferencia Internacional
+
+    TabsB.color-acento-botones.mb-5
+      .py-4.py-md-5(titulo="Consideración 1" :icono="require('@/assets/curso/tema1-3-4-ico.svg')")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            p El Artículo 26 de la Ley 1581 de 2012 prohíbe, por regla general, la transferencia internacional de datos personales de cualquier tipo a países que no garanticen un nivel adecuado de protección de datos.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1-3-4-tab1.jpg', alt='Imagen decorativa')
+      .py-4.py-md-5(titulo="Consideración 2" :icono="require('@/assets/curso/tema1-3-4-ico.svg')")
+        .row.justify-content-center
+          .col-md-7.mb-4.mb-md-0
+            p Para efectos de la circulación transfronteriza de datos, la Superintendencia de Industria y Comercio (SIC) —autoridad colombiana de protección de datos personales— ha establecido que los siguientes países tienen nivel adecuado de protección de datos (SIC Circulares externas 5 y 8 de 2017 y 2 de 2018):
+            p Alemania, Australia, Austria, Bélgica, Bulgaria, Chipre, Costa Rica, Croacia, Dinamarca, Eslovaquia, Eslovenia, Estonia, España, Estados Unidos de América, Finlandia, Francia, Grecia, Hungría, Irlanda, Islandia, Italia, Japón, Letonia, Lituania, Luxemburgo, Malta, México, Noruega, Países Bajos, Perú, Polonia, Portugal, Reino Unido, República Checa, República de Corea, Rumania, Serbia, Suecia y los países que han sido declarados con el nivel adecuado de protección por la Comisión Europea (Suiza, Canadá, Argentina, Guernsey, Isla de Man, Jersey, Islas Feroe, Andorra, Israel, Uruguay y Nueva Zelanda).
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema1-3-4-tab2.jpg', alt='Imagen decorativa')
+      .py-4.py-md-5(titulo="Consideración 3" :icono="require('@/assets/curso/tema1-3-4-ico.svg')")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            p La prohibición no regirá cuando se trate de información respecto a la cual se disponga de la autorización expresa del titular o datos médicos por exigencias de salud o higiene pública. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1-3-4-tab3.jpg', alt='Imagen decorativa')
+      .py-4.py-md-5(titulo="Consideración 4" :icono="require('@/assets/curso/tema1-3-4-ico.svg')")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            p Adicionalmente, a las transferencias bursátiles les aplica la legislación específica y aquellas legalmente exigidas para la salvaguarda del interés público o para el reconocimiento, ejercicio o defensa de un derecho en procesos judiciales.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1-3-4-tab4.jpg', alt='Imagen decorativa')
+      .py-4.py-md-5(titulo="Consideración 5" :icono="require('@/assets/curso/tema1-3-4-ico.svg')")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            p En otros casos, es la Superintendencia de Industria y Comercio la que debe pronunciarse para las transferencias internacionales con base en la Declaración de Conformidad. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1-3-4-tab5.jpg', alt='Imagen decorativa')
+      .py-4.py-md-5(titulo="Consideración 6" :icono="require('@/assets/curso/tema1-3-4-ico.svg')")
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
+            p Más allá del trámite administrativo no se ha de olvidar que “los responsables del tratamiento de datos personales deben ser capaces de demostrar, a petición de la Superintendencia de Industria y Comercio, que han implementado medidas apropiadas y efectivas para cumplir con las obligaciones establecidas en la Ley 1581 de 2012” y en el Decreto 1377 de 2013, según se ha incorporado en el Decreto 1074 de 2015.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/tema1-3-4-tab6.jpg', alt='Imagen decorativa')
+
+
+
+
+
+
 </template>
 
 <script>
