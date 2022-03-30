@@ -468,31 +468,108 @@
     .titulo-tercero.mb-4(data-aos="fade-right") 
       h3 1.3.7	Garantías de recuperar los datos personales (portabilidad)
 
-    p.mb-4(data-aos="fade") La portabilidad significa que el proveedor está obligado a resolverse el contrato o a la terminación del servicio, de entregar toda la información al cliente en el formato previamente acordado, de forma que este pueda almacenarla en sus propios sistemas o bien optar porque se traslade a los de un nuevo proveedor en un formato que permita su utilización, a la mayor brevedad posible, con total garantía de la integridad de la información y sin incurrir en costos adicionales.
+    .row.bg-tema-1-3-7
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.justify-content-center
+          .col-md-12    
+            p.mb-4(data-aos="fade") La portabilidad significa que el proveedor está obligado a resolverse el contrato o a la terminación del servicio, de entregar toda la información al cliente en el formato previamente acordado, de forma que este pueda almacenarla en sus propios sistemas o bien optar porque se traslade a los de un nuevo proveedor en un formato que permita su utilización, a la mayor brevedad posible, con total garantía de la integridad de la información y sin incurrir en costos adicionales.
 
-    .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-8.mb-4.mb-lg-0
-          .bloque-texto-a__texto.p-4.ms-3
-            p.mb-0 En particular, el cliente debe tener la opción de exigir la portabilidad de la información a sus propios sistemas de información o a un nuevo proveedor cuando considere inadecuada la intervención de algún subcontratista o la transferencia de datos a países que estime no aportan las garantías adecuadas. Estas condiciones son también particularmente importantes en los casos en que el proveedor modifique unilateralmente las condiciones de prestación del servicio dado su poder de negociación frente al cliente. Por tanto, se debe solicitar información y garantías al proveedor sobre la portabilidad de los datos personales.
-        .col-lg-4
-          img(src='@/assets/curso/tema1-3-6-img3.png', alt='Imagen decorativa')      
+            .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4 
+              .row.m-0.align-items-center.justify-content-between
+                .col-lg-8.mb-4.mb-lg-0
+                  .bloque-texto-a__texto.p-4.ms-3
+                    p.mb-0 En particular, el cliente debe tener la opción de exigir la portabilidad de la información a sus propios sistemas de información o a un nuevo proveedor cuando considere inadecuada la intervención de algún subcontratista o la transferencia de datos a países que estime no aportan las garantías adecuadas. Estas condiciones son también particularmente importantes en los casos en que el proveedor modifique unilateralmente las condiciones de prestación del servicio dado su poder de negociación frente al cliente. Por tanto, se debe solicitar información y garantías al proveedor sobre la portabilidad de los datos personales.
+                .col-lg-4
+                  img(src='@/assets/curso/tema1-3-6-img3.png', alt='Imagen decorativa')      
 
-    p(data-aos="fade") Asimismo, debe preverse mecanismos que garanticen el borrado seguro de los datos cuando lo solicite el cliente y, en todo caso, al finalizar el contrato. Un mecanismo habitual y apropiado es requerir una certificación de la destrucción, emitido por el proveedor de computación en la nube o por un tercero.
+            p.mb-0(data-aos="fade") Asimismo, debe preverse mecanismos que garanticen el borrado seguro de los datos cuando lo solicite el cliente y, en todo caso, al finalizar el contrato. Un mecanismo habitual y apropiado es requerir una certificación de la destrucción, emitido por el proveedor de computación en la nube o por un tercero.
 
-    Separador
-
-
-    #t_1_4
-    .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right") 
-      h2 1.4	Acuerdos de nivel de servicio
-
-    p.mb-4(data-aos="fade") Cualquier actividad empresarial, incluyendo la contratación de servicios de computación en la nube se debe regular mediante un contrato la relación entre el proveedor de servicios (en este caso el proveedor de servicios cloud CSP) y el cliente (en este caso, el contratante). A continuación, se mostrarán de manera genérica algunas cláusulas que deberían ser consideradas:
+            Separador
 
 
+            #t_1_4
+            .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right") 
+              h2 1.4	Acuerdos de nivel de servicio
 
+            p.mb-4(data-aos="fade") Cualquier actividad empresarial, incluyendo la contratación de servicios de computación en la nube se debe regular mediante un contrato la relación entre el proveedor de servicios (en este caso el proveedor de servicios cloud CSP) y el cliente (en este caso, el contratante). A continuación, se mostrarán de manera genérica algunas cláusulas que deberían ser consideradas:
+
+            ul.lista-ul--color.color-acento-botones.mb-4(data-aos="fade")
+              li 
+                i.fas.fa-play
+                | Las cláusulas del contrato que deben definir claramente la posición de cada una de las partes, así como sus responsabilidades y obligaciones.
+              li 
+                i.fas.fa-play
+                | Los términos de uso que se encargan de definir las especificaciones técnicas más importantes relacionadas con la entrega y la calidad del servicio. Suelen estar recogidas en documentos llamados SLA (Acuerdos de Nivel de Servicio) y entre otras cosas establecen los niveles de rendimiento y disponibilidad garantizados por el proveedor.
+
+            .row.justify-content-center.mb-4(data-aos="fade-down")
+              .col-md-10
+                .cajon.color-acento-contenido.p-4
+                  p.mb-0 Si bien los contratos comerciales siempre se negocian, en el caso de los proveedores de servicios cloud a menudo no suele existir tal acercamiento de posiciones, pues definen y ponen sus condiciones las que en muchos casos deben de ajustarse los clientes. Por tanto, un buen consejo es negociar el contrato siempre que sea posible o en su defecto estudiar cuidadosamente cada una de las cláusulas propuestas por los diferentes proveedores, hasta encontrar el contrato que mejor satisfaga las necesidades del cliente.
+            
+            .row
+              .col-md-9.mb-4.mb-md-0(data-aos="fade-right")  
+                p La falta de regulaciones específicas, así como de las funciones y obligaciones recíprocas, conllevan a que estas sean incorporadas en el pliego estándar de condiciones generales, las cuales son elaboradas de forma unilateral por el proveedor del servicio y en su defecto aceptadas por los clientes, sin que medie modificaciones a la medida, o mediante negociaciones o acuerdos. Para lo cual es necesario establecer una diferencia entre el caso de una pequeña o mediana organización, quienes seguramente escogerán entre los diferentes contratos ofrecidos, y una organización grande, quien tendrá mayor libertad de negociar las cláusulas. Las recomendaciones para cláusulas contractuales específicas deben entenderse como preferencias entre ofertas del mercado.
+              .col-md-3(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-img.png' alt='Imagen decorativa')
 
     
+    .titulo-tercero.mb-4(data-aos="fade-right") 
+      h3 1.4.1 Aspectos de referencia en la contratación de servicios en la nube
+
+    p.mb-5(data-aos="fade") Existen algunos aspectos relevantes a tener en cuenta al llevar a cabo un contrato de servicios en la nube, que permiten amparar a la organización, a la vez que posibilitan exigir a los prestadores de servicio mayor control en la negociación, estos aspectos clave se detallan, a continuación:
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Seguridad de los datos
+
+    p(data-aos="fade") Esta cláusula debe asegurar que el proveedor de servicios cloud puede proporcionar suficientes medidas de seguridad de los tratamientos, tanto técnicas como organizativas y que garantice el cumplimiento de las mismas.
+
+    p.mb-4(data-aos="fade") La seguridad pese a ser un concepto muy amplio, se entiende que debe garantizar los siguientes aspectos:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-4.mb-4.mb-md-0(data-aos="fade-right")  
+        img(src='@/assets/curso/tema1-4-1-img.png' alt='Imagen decorativa')
+      .col-md-6(data-aos="fade-left")
+        ul.lista-ul--color.color-acento-botones.mb-4(data-aos="fade")
+          li 
+            i.fas.fa-play
+            | Disponibilidad: información disponible pueda cuando se necesite.
+          li 
+            i.fas.fa-play
+            | Confidencialidad: información disponible exclusivamente para personas autorizadas.
+          li 
+            i.fas.fa-play
+            | Integridad: información completa, precisa y protegida contra cambios no autorizados.
+          li 
+            i.fas.fa-play
+            | Autenticidad: confiabilidad en la generación de la información, y en su intercambio entre ubicaciones diferentes.
+          li 
+            i.fas.fa-play
+            | Cumplimiento: adecuación a la legislación vigente, como puede ser la ley de protección de datos vinculante de aplicación.
+          li 
+            i.fas.fa-play
+            | Trazabilidad: comprobación en qué momento, quién hizo qué.        
+
+    p.mb-4(data-aos="fade") Se debe hacer constar en el contrato de prestación de servicios que el proveedor de servicios cloud disponga de certificaciones <b>ISO 27001 (certifica el SGSI o Sistema de Gestión de Seguridad de la Información), ISO 22301 (certifica el SGCN o Sistema de Gestión de Continuidad del Negocio)</b> o cualquier otra acreditada por una entidad reconocida de certificación es un aspecto de garantía.
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+        .cajon.color-acento-contenido.p-4
+          h4 Importante:
+          p.mb-0 Debe recordarse que una certificación está sometida a un proceso de re-certificación normalmente a los 3 años, con base a una auditoría de la entidad certificadora acreditada, y auditorías de verificación anuales. También han de realizarse periódicamente auditorías internas o extraordinarias cuando se produzcan cambios significativos en el sistema de gestión.
+
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Protección de datos
+
+    .row
+      .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+        p Esta cláusula se refiere a las medidas obligatorias de seguridad de los datos que puedan afectar al proveedor de servicios cloud o al cliente, por estar sujetos a una regulación específica. Su incumplimiento puede representar acciones legales y procedimientos sancionadores.
+      .col-md-5(data-aos="fade-left")
+        img(src='@/assets/curso/tema1-4-1-img2.png' alt='Imagen decorativa')
+
+
+
+
 
 
 </template>
