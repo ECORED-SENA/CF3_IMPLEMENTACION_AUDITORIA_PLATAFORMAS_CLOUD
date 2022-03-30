@@ -444,10 +444,55 @@
 
     p.mb-5.text-center(data-aos="fade") No se debe olvidar las garantías de cumplimiento y adherencia continua de estas medidas con base al programa integral de gestión de datos personales.
 
+    .titulo-tercero.mb-5(data-aos="fade-right") 
+      h3 1.3.6	Garantías de cumplimiento de las medidas de seguridad
+
+    .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.p-0
+          img(src='@/assets/curso/tema1-3-6-img.png', alt='Imagen decorativa')
+        .col-lg-8  
+          .bloque-texto-a__texto.p-4.ms-3
+            p Como cliente se debe tener la opción de comprobar las medidas de seguridad, incluidos los registros que permiten conocer quién ha accedido a los datos de los que es responsable.
+            p El proveedor de servicios cloud debe poner a su disposición toda la información necesaria para demostrar el cumplimiento de las medidas de seguridad.
+            p.mb-0 El proveedor le puede acreditar que dispone de una certificación de seguridad adecuada mediante un tercero independiente que audite la seguridad. En este caso, debe conocerse la entidad auditora y los estándares reconocidos que aplica.
+    
+    .row.mb-md-5
+      .col-md-9.mb-4.mb-md-0(data-aos="fade-right")  
+        p Se debe solicitar información al proveedor sobre cómo se auditarán las medidas de seguridad, el cliente debe ser informado sin dilación indebida por el proveedor sobre las incidencias de seguridad que afecten a los datos de los que el propio cliente es responsable, así como de las medidas adoptadas para resolverlas o de las medidas que el cliente ha de tomar para evitar los daños que puedan producirse, por ejemplo, informar a sus propios clientes sobre cómo proteger su información personal.
+        p En cuanto a los compromisos de confidencialidad de los datos personales, el proveedor debe comprometerse a garantizar la confidencialidad utilizando los datos solo para los servicios contratados. Asimismo, debe garantizar que el personal autorizado a tratar datos personales haya suscrito compromisos de confidencialidad o esté sujeto a  obligaciones de confidencialidad estatutarias.
+      .col-md-3(data-aos="fade-left")
+        img(src='@/assets/curso/tema1-3-6-img2.png' alt='Imagen decorativa')
+
+
+    .titulo-tercero.mb-4(data-aos="fade-right") 
+      h3 1.3.7	Garantías de recuperar los datos personales (portabilidad)
+
+    p.mb-4(data-aos="fade") La portabilidad significa que el proveedor está obligado a resolverse el contrato o a la terminación del servicio, de entregar toda la información al cliente en el formato previamente acordado, de forma que este pueda almacenarla en sus propios sistemas o bien optar porque se traslade a los de un nuevo proveedor en un formato que permita su utilización, a la mayor brevedad posible, con total garantía de la integridad de la información y sin incurrir en costos adicionales.
+
+    .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8.mb-4.mb-lg-0
+          .bloque-texto-a__texto.p-4.ms-3
+            p.mb-0 En particular, el cliente debe tener la opción de exigir la portabilidad de la información a sus propios sistemas de información o a un nuevo proveedor cuando considere inadecuada la intervención de algún subcontratista o la transferencia de datos a países que estime no aportan las garantías adecuadas. Estas condiciones son también particularmente importantes en los casos en que el proveedor modifique unilateralmente las condiciones de prestación del servicio dado su poder de negociación frente al cliente. Por tanto, se debe solicitar información y garantías al proveedor sobre la portabilidad de los datos personales.
+        .col-lg-4
+          img(src='@/assets/curso/tema1-3-6-img3.png', alt='Imagen decorativa')      
+
+    p(data-aos="fade") Asimismo, debe preverse mecanismos que garanticen el borrado seguro de los datos cuando lo solicite el cliente y, en todo caso, al finalizar el contrato. Un mecanismo habitual y apropiado es requerir una certificación de la destrucción, emitido por el proveedor de computación en la nube o por un tercero.
+
+    Separador
+
+
+    #t_1_4
+    .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right") 
+      h2 1.4	Acuerdos de nivel de servicio
+
+    p.mb-4(data-aos="fade") Cualquier actividad empresarial, incluyendo la contratación de servicios de computación en la nube se debe regular mediante un contrato la relación entre el proveedor de servicios (en este caso el proveedor de servicios cloud CSP) y el cliente (en este caso, el contratante). A continuación, se mostrarán de manera genérica algunas cláusulas que deberían ser consideradas:
 
 
 
 
+    
 
 
 </template>
