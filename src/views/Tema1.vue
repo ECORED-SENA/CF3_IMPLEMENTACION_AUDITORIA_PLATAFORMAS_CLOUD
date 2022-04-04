@@ -568,6 +568,7 @@
                 p Esta cláusula se refiere a las medidas obligatorias de seguridad de los datos que puedan afectar al proveedor de servicios cloud o al cliente, por estar sujetos a una regulación específica. Su incumplimiento puede representar acciones legales y procedimientos sancionadores.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img2.png' alt='Protección de datos')
+          
           .separador2
 
           .col-md-12
@@ -579,6 +580,34 @@
                 p Si dicha transferencia es a un tercer país puede tener importantes consecuencias legales, ya que se considerará una transferencia internacional de datos.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img3.png' alt='Transferencia de datos')
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Legislación aplicable
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Es el conjunto de leyes y normas a las que debe ajustarse el contrato, cada país tiene restricciones y requerimientos específicos amparados en la  legislación aplicable a los datos, principalmente si son de naturaleza personal.
+                p El contrato debe reflejar a qué legislación se someterán los datos y su tratamiento con relación al cliente (responsable del tratamiento o <em>data controller</em>) y el proveedor de servicios cloud (encargado del tratamiento o <em>data processor</em>).
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img4.png' alt='Legislación aplicable')
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Confidencialidad
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Deben contemplarse las obligaciones del proveedor de servicios cloud en lo referente a la confidencialidad, es decir, que no revelará los datos a terceras personas.
+                
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img5.png' alt='Confidencialidad')      
+
+
+
+
 
 
 
