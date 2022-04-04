@@ -557,18 +557,28 @@
           h4 Importante:
           p.mb-0 Debe recordarse que una certificación está sometida a un proceso de re-certificación normalmente a los 3 años, con base a una auditoría de la entidad certificadora acreditada, y auditorías de verificación anuales. También han de realizarse periódicamente auditorías internas o extraordinarias cuando se produzcan cambios significativos en el sistema de gestión.
 
+    .row.bg-tema-1-4-1
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.justify-content-center
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Protección de datos
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Esta cláusula se refiere a las medidas obligatorias de seguridad de los datos que puedan afectar al proveedor de servicios cloud o al cliente, por estar sujetos a una regulación específica. Su incumplimiento puede representar acciones legales y procedimientos sancionadores.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img2.png' alt='Protección de datos')
+          .separador2
 
-    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
-      h3.mb-0 Protección de datos
-
-    .row
-      .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
-        p Esta cláusula se refiere a las medidas obligatorias de seguridad de los datos que puedan afectar al proveedor de servicios cloud o al cliente, por estar sujetos a una regulación específica. Su incumplimiento puede representar acciones legales y procedimientos sancionadores.
-      .col-md-5(data-aos="fade-left")
-        img(src='@/assets/curso/tema1-4-1-img2.png' alt='Imagen decorativa')
-
-
-
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Transferencia de datos
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Esta cláusula reflejará cuándo, cómo y qué información de seguridad se facilitará al cliente, para que conozca en todo momento qué datos son transferidos a otra ubicación geográfica distinta de la contratada inicialmente como <em>datacenter</em>, que albergará sus datos en la nube.
+                p Si dicha transferencia es a un tercer país puede tener importantes consecuencias legales, ya que se considerará una transferencia internacional de datos.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img3.png' alt='Transferencia de datos')
 
 
 
