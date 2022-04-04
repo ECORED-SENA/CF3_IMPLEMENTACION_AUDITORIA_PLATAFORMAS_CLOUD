@@ -691,6 +691,226 @@
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img11.png' alt='Auditabilidad')
 
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 SLA/ANS (acuerdo de nivel de servicio)
+            .row.mb-4
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p El NIST (<em>National Institute of Standards and Technology</em>) define un Acuerdo de Nivel de Servicio como “un SLA representa la comprensión entre el cliente y el proveedor sobre el nivel esperado del servicio que se va a entregar y, en caso de que el proveedor falle en entregar dicho servicio al nivel especificado, la compensación disponible para el cliente”. Algunos proveedores ya contemplan el seguimiento del cumplimiento de los SLA mediante un conjunto estándar de indicadores que pueden consultarse a través de un panel de control o cuadro de mando unificado, o bien mediante el envío de informes periódicos al cliente por correo electrónico.
+                p Serán los KPI quienes reflejen con precisión el rendimiento en curso. Una vez que el cliente ha definido y desarrollado los parámetros de los KPI, puede trabajar con el proveedor para crear alertas cuando el rendimiento caiga por debajo de un rango aceptable. Mediante el análisis de la causa, el rendimiento podrá irse optimizando de forma continua.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img12.png' alt='SLA/ANS (acuerdo de nivel de servicio)')      
+            p(data-aos="fade") Es aconsejable que, a la contratación del servicio en la nube, ya se dispone de definiciones de KPI propios o estándares. Así podrán añadirse inicialmente como un anexo al contrato, que vincule al proveedor al cumplimiento de los SLA, con base en valores tangibles. Su incumplimiento puede conllevar penalizaciones pactadas en el contrato.
+            p.mb-5(data-aos="fade") Marcos y estándares sobre las “mejores prácticas” de TI como puede ser ITIL, definen una completa Gestión del Nivel de Servicio, que es bueno consultar previamente a la contratación. Puede ser importante que el proveedor esté certificado en ISO 20000-1, acreditando que dispone de un SGS (Sistema de Gestión de Servicios) eficaz y eficiente, asegurando el cumplimiento de los acuerdos de nivel de servicio o SLA, pactados con el cliente.
+
+          .titulo-tercero.mb-4(data-aos="fade-right") 
+            h3 1.4.2 Organizaciones referentes en la contratación de servicios de cloud computing
+
+          p.mb-4(data-aos="fade") Más allá de la propia legislación específica aplicable en materia de protección de datos se explican, a continuación, una serie de documentos que acreditan los focos de atención en cada uno de estos, con el fin de hacer un análisis un poco más detallado de aquellos más significativos:
+
+
+    ImagenInfograficaB.bg-tema-1-4-2.color-acento-botones.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1-4-2-infog.svg', alt='Organizaciones referentes de contatación en la nube')
+
+      .row.align-items-center.bg-3.p-4(x="9.5%" y="82.3%" numero="+")
+        h4 Constitución y creación
+        p.mb-0 La Cloud Security Alliance está dirigida por una amplia coalición constituida por profesionales de la industria, corporaciones, asociaciones y otros actores clave. Nació en el Foro de la AISS CISO en Las Vegas, en noviembre de 2008, empezando a publicar en 2009.
+      .row.align-items-center.bg-3.p-4(x="9.5%" y="94%" numero="+")
+        h4 Apartados o cláusulas
+        ul.lista-ul--color.color-acento-botones.mb-0 
+          li.mb-1 
+            i.fas.fa-play
+            | Confidencialidad.
+          li.mb-1  
+            i.fas.fa-play
+            | Propiedad intelectual.
+          li.mb-1  
+            i.fas.fa-play
+            | Responsabilidad.
+          li.mb-1  
+            i.fas.fa-play
+            | Resolución anticipada.
+          li.mb-1  
+            i.fas.fa-play
+            | Privacidad y protección de datos.     
+          li.mb-1  
+            i.fas.fa-play
+            | Ley aplicable y jurisdicción.  
+          li.mb-1  
+            i.fas.fa-play
+            | Audibilidad.  
+          li.mb-1  
+            i.fas.fa-play
+            | Seguridad.  
+          li.mb-0 
+            i.fas.fa-play
+            | Acuerdo de nivel de servicio (sla).              
+
+      .row.align-items-center.bg-3.p-4(x="29.7%" y="82.3%" numero="+")
+        h4 Constitución y creación
+        p.mb-0 ENISA fue creada para mejorar la capacidad de la Unión Europea, sus estados miembros y la comunidad empresarial para prevenir, tratar y dar respuesta a los problemas de seguridad de las redes y la información.
+        p.mb-0 Se trata de un centro de conocimientos especializados que marca el ritmo para la Seguridad de la Información en la Unión Europea.
+      .row.align-items-center.bg-3.p-4(x="29.7%" y="94%" numero="+")
+        h4 Cuestiones legales
+        ul.lista-ul--color.color-acento-botones.mb-0 
+          li.mb-1 
+            i.fas.fa-play
+            | Protección de datos.
+          li.mb-1  
+            i.fas.fa-play
+            | Confidencialidad.
+          li.mb-1  
+            i.fas.fa-play
+            | Propiedad intelectual.
+          li.mb-1  
+            i.fas.fa-play
+            | Negligencia profesional.
+          li.mb-1  
+            i.fas.fa-play
+            | Cadenas de subcontratación. 
+
+      .row.align-items-center.bg-3.p-4(x="50%" y="82.3%" numero="+")
+        h4 En que consiste
+        p.mb-0 En dicho libro, relaciona 8 áreas a las que debe prestarse especial atención, al evaluar documentos que recojan acuerdos para contratación de servicios bajo el modelo de computación en nube.
+      .row.align-items-center.bg-3.p-4(x="50%" y="94%" numero="+")
+        h4 Áreas de interés
+        ul.lista-ul--color.color-acento-botones.mb-0 
+          li.mb-1 
+            i.fas.fa-play
+            | Protección de datos (<em>Data Protection</em>).
+          li.mb-1  
+            i.fas.fa-play
+            | Seguridad de los datos (<em>Data Security</em>).
+          li.mb-1  
+            i.fas.fa-play
+            | Transferencias de datos (<em>Data Transfer</em>).
+          li.mb-1  
+            i.fas.fa-play
+            | Legislación aplicable (<em>Law Enforcement Access</em>).
+          li.mb-1  
+            i.fas.fa-play
+            | Confidencialidad y no divulgación (<em>Confidentiality and Non-disclosure</em>).
+          li.mb-1  
+            i.fas.fa-play
+            | Propiedad intelectual (<em>Intellectual Property</em>)
+          li.mb-1  
+            i.fas.fa-play
+            | Limitación de responsabilidad (<em>Risk Allocation and Limitation of Liability</em>)
+          li.mb-1  
+            i.fas.fa-play
+            | Transferencia de control (<em><b>Change of Control</b></em>)   
+
+      .row.align-items-center.bg-3.p-4(x="70.3%" y="82.3%" numero="+")
+        h4 En que consiste
+        p.mb-0 En su Blog personal ha publicado un artículo referido a las cláusulas críticas en el contrato que regula el computación en nube. La preocupación por el tema se basa en el desplazamiento de datos, información y servicios críticos al exterior de la empresa, convirtiendo a algunos proveedores en una extensión de los recursos corporativos.
+      .row.align-items-center.bg-3.p-4(x="70.3%" y="94%" numero="+")
+        h4 Aspectos
+        .row
+          .col-md-6
+            ul.lista-ul--color.color-acento-botones.mb-0 
+              li.mb-1 
+                i.fas.fa-play
+                | Propiedad intelectual.
+              li.mb-1 
+                i.fas.fa-play
+                | Propiedad de la información.  
+              li.mb-1 
+                i.fas.fa-play
+                | Confidencialidad de la información. 
+              li.mb-1 
+                i.fas.fa-play
+                | Ubicación de los datos. 
+              li.mb-1 
+                i.fas.fa-play
+                | Posibles transferencias internacionales de datos. 
+              li.mb-1 
+                i.fas.fa-play
+                | Medidas de seguridad proporcionales al tipo de datos. 
+              li.mb-1 
+                i.fas.fa-play
+                | Control de acceso y gestión de identidades.
+              li.mb-1 
+                i.fas.fa-play
+                | Copias de seguridad de los datos. 
+              li.mb-1 
+                i.fas.fa-play
+                | Estándares e indicadores de calidad del servicio.               
+          .col-md-6
+            ul.lista-ul--color.color-acento-botones.mb-0 
+              li.mb-1 
+                i.fas.fa-play
+                | Auditorías.
+              li.mb-1 
+                i.fas.fa-play
+                | Niveles de respuesta.  
+              li.mb-1 
+                i.fas.fa-play
+                | Continuidad del servicio. 
+              li.mb-1 
+                i.fas.fa-play
+                | Régimen de responsabilidades. 
+              li.mb-1 
+                i.fas.fa-play
+                | Inclusión del proveedor en el plan de continuidad del negocio. 
+              li.mb-1 
+                i.fas.fa-play
+                | Arbitraje tecnológico. 
+              li.mb-1 
+                i.fas.fa-play
+                | Legislación y jurisdicción aplicables en el caso de proveedores extranjeros.
+              li.mb-1 
+                i.fas.fa-play
+                | Garantías post-contractuales: retorno ordenado de la información. 
+
+      .row.align-items-center.bg-3.p-4(x="90.5%" y="75.3%" numero="+")
+        h4 Servicios
+        p.mb-0 INCIBE promueve servicios en el ámbito de la ciberseguridad que permitan el aprovechamiento de las TIC y eleven la confianza digital. En concreto, INCIBE trabaja en la protección de la privacidad de los usuarios, fomenta el establecimiento de mecanismos para la prevención y reacción a incidentes de seguridad de la información, minimizando su impacto en el caso de que se produzcan, y promueve el avance de la cultura de la seguridad de la información a través de la concienciación, la sensibilización y la formación.
+      .row.align-items-center.bg-3.p-4(x="90.5%" y="83.4%" numero="+")
+        h4 Investigación
+        p.mb-0 INCIBE cuenta con una importante capacidad para abordar proyectos complejos de diversa naturaleza y con una fuerte componente innovadora. La dinámica de sus operaciones está asimismo orientada a la investigación, lo que permite que INCIBE cuente con capacidad para generar inteligencia en ciberseguridad como motor para abordar su aplicación en nuevas tecnologías y mecanismos que reviertan también en la mejora de los servicios.
+      .row.align-items-center.bg-3.p-4(x="90.5%" y="91.5%" numero="+")
+        h4 Coordinación
+        p.mb-0 INCIBE participa en redes de colaboración que facilitan la inmediatez, globalidad y efectividad a la hora de desplegar una actuación en el ámbito de la ciberseguridad, contando siempre con una perspectiva basada en la experiencia y en el intercambio de información. Por ello, la coordinación y colaboración con otras entidades, tanto públicas como privadas, nacionales e internacionales, de todo el ámbito de la ciberseguridad es un factor imprescindible para la actividad de INCIBE.
+      .row.align-items-center.bg-3.p-4(x="90.5%" y="100%" numero="+")
+        h4 Cláusulas
+        ul.lista-ul--color.color-acento-botones.mb-0 
+          li.mb-1 
+            i.fas.fa-play
+            | Acuerdos de nivel de servicio (<em>Service Level Agreements, Slas</em>).
+          li.mb-1  
+            i.fas.fa-play
+            | Confidencialidad.
+          li.mb-1  
+            i.fas.fa-play
+            | Disponibilidad.
+          li.mb-1  
+            i.fas.fa-play
+            | Rendimiento.
+          li.mb-1  
+            i.fas.fa-play
+            | Seguridad.
+          li.mb-1  
+            i.fas.fa-play
+            | Pagos.
+          li.mb-1  
+            i.fas.fa-play
+            | Suspensión del servicio.
+          li.mb-1  
+            i.fas.fa-play
+            | Servicios de soporte.
+          li.mb-1  
+            i.fas.fa-play
+            | Terminación o modificación.
+          li.mb-0
+            i.fas.fa-play
+            | Privacidad y cumplimiento normativo.          
+
+
+
 
 
 

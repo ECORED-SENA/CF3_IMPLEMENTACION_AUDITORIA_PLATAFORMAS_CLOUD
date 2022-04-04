@@ -83,13 +83,24 @@
     margin-inline: -1.4rem     
 .bg-tema-1-4-1
   background-image: url('../assets/curso/tema1-4-1-bg.png')
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (min-width: 1398px)
+    background-size: 100% 100%
+    background-position: bottom center !important
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem       
+.bg-tema-2
+  background-image: url('../assets/curso/tema2-bg-1.png')
   background-position: 50% 47%
   background-size: contain
   background-repeat: no-repeat
   margin-inline: -3.4rem
   @media screen and ( max-width: 992px)
     background-size: cover 
-    margin-inline: -1.4rem        
+    margin-inline: -1.4rem       
 .bg-absoluto
   background-position: 50% 79%
   background-size: contain
@@ -112,6 +123,8 @@
   background-color: #F3F9FF
 .bg-2
   background-color: #FDE0EF
+.bg-3
+  background-color: #F5E9BB
 
 .neg--top  
   margin-top: -2.5rem
@@ -192,3 +205,12 @@
   background-color: #FAA7D3
 .cajon.color-acento-botones
   background-color: #FDE0EF
+
+.bg-tema-1-4-2 .img-infografica-b__item__tooltip
+  display: none
+.bg-tema-1-4-2 .img-infografica-b__modal__contenido div > *
+  color: #111e61 !important
+.bg-tema-1-4-2 .img-infografica-b__modal
+  display: flex
+  align-items: center
+  justify-content: center
