@@ -598,15 +598,98 @@
           .col-md-12
             .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
               h3.mb-0 Confidencialidad
-            .row
+            .row.align-items-center
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
                 p Deben contemplarse las obligaciones del proveedor de servicios cloud en lo referente a la confidencialidad, es decir, que no revelará los datos a terceras personas.
-                
+                .cajon.color-acento-contenido.p-4.mb-2
+                  p.mb-0 La cláusula recogerá que todo el personal empleado o colaborador (técnico, administrativo, de apoyo o de mantenimiento) del proveedor de computación en la nube, que por cuestiones de operativa tenga o pueda tener acceso a los datos del cliente, habrá firmado una cláusula de confidencialidad. El proveedor, por tanto, responderá ante cualquier actuación dolosa o negligente de estos.
+                .cajon.color-acento-botones.p-4.mb-3
+                  p.mb-0 Otro de los puntos clave a tener en cuenta en la cláusula de confidencialidad es la limitación de los supuestos en los que el prestador del servicio podrá revelar la información a terceros.
+                  p.mb-0  Aunque la jurisdicción que vaya a regir el contrato podrá contener previsiones específicas en este sentido, resulta conveniente limitar la revelación de datos a efectos de cumplir obligaciones legales o de requerimientos de autoridades competentes.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img5.png' alt='Confidencialidad')      
 
+          .separador2
 
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Propiedad intelectual
+            .row.mb-4.mb-md-5
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p La cláusula de propiedad intelectual es importante tenerla en cuenta. En su contexto amplio del derecho, se refiere a los derechos de autor, patentes, marcas y diseño industrial.
+                p Es decir, puede referirse a que todo el trabajo que se ha realizado durante el ciclo de vida del contrato de servicios en la nube, apoyándose en las utilidades que el proveedor de servicios cloud proporciona son propiedad intelectual del cliente o de terceros que le han cedido el derecho de uso mediante las correspondientes licencias.
+                p Según el modelo de entrega de servicios en la nube que se tenga contratado, puede ser más o menos difícil de determinar:
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img6.png' alt='Propiedad intelectual')
+            p <b>1. LaaS:</b> dicho modelo de entrega equivale a contratar un servidor virtual completamente vacío, solo dispone del sistema operativo. Por tanto, todo su contenido será del cliente; al proveedor no le corresponde derecho alguno.
 
+            p <b>2. PaaS:</b> en este caso, además del sistema operativo suele incorporar una BB.DD., utilitarios de programación, “web services”, etc. Todas las aplicaciones que desarrolle el cliente con esas herramientas de programación u otras que adicione, junto a sus datos asociados serán de su propiedad y no generarán derecho alguno a favor del proveedor.
+
+            p <b>3. SaaS:</b> en este caso, el cliente se limita a utilizar una aplicación o conjunto integrado de ellas en modalidad de computación en la nube. Por tanto, serán solo de su propiedad, los trabajos y datos en general que allí almacene.
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Limitación de responsabilidad
+            .row.align-items-center
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Al revisar sus obligaciones contractuales respectivas, las partes (proveedor y cliente) deben proteger aquellas que representen un riesgo significativo para ellos, mediante la inclusión en este apartado de cláusulas económicas de remediación u obligaciones de indemnizar en caso de incumplimiento de la otra parte de sus obligaciones contractuales o que se produzcan desviaciones en el nivel de servicio.
+                .cajon.color-acento-contenido.p-4.mb-2
+                  p Si no es posible, al menos deben revisarse y evaluarse cuidadosamente las cláusulas estándar que  presenta el CSP en su contrato y que normalmente le eximen o limitan su responsabilidad.
+                  p.mb-0 De modo general, salvo aquellas cuestiones que puedan quedar fuera del ámbito de control o voluntad del prestador del servicio, el proveedor debería responsabilizarse frente al cliente de cualquier daño o perjuicio que pudiera surgir a consecuencia de la suscripción del contrato de prestación de servicios de cloud.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img7.png' alt='Limitación de responsabilidad')
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Transferencia de control
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Podría redactarse de forma que, en dicho supuesto, el nuevo gestor que ofrecerá servicios del a  nube se obligue a heredar las actuales condiciones contractuales, o bien el cliente tenga la potestad de rescindir del contrato.
+                p Esta cláusula prevé una situación de cambio de control en el proveedor, motivada, por ejemplo, por una compra, absorción o fusión empresarial.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img8.png' alt='Transferencia de control')
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Cadenas de subcontratación
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p En el caso de que estemos contratando una aplicación en la nube, tipo SaaS (<em>Software</em> como servicio), puede darse el caso que lo hagamos con un proveedor de <em>software</em> independiente (“<em>software house</em>” o desarrollador de <em>software</em>) y este no disponga de infraestructura virtual, debiendo subcontratarla. 
+                p Debe quedar claro si los datos inicialmente transferidos a un país (A) pueden ser posteriormente transferidos desde ese país (A) a otro país (B). En caso positivo, deben quedar establecidas las condiciones que se deben observar para dicho efecto.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img9.png' alt='Cadenas de subcontratación')      
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Resolución anticipada
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Esta cláusula protege al cliente frente al proveedor en caso de una degradación o incumplimiento del nivel de servicio esperado y contratado. Es aconsejable que el cliente se proteja estableciendo una posible rescisión del contrato por dichas causas, independientemente de pactar indemnizaciones.  
+                p.mb-0 Debe dejarse clara la propiedad de la información y demás aplicaciones que el cliente haya ubicado en la nube (ver cláusula de propiedad intelectual).
+                p Debe pactarse un retorno ordenado de la información, estableciendo un período transitorio que dé tiempo a migrar los datos y aplicaciones normalmente a otro proveedor o en su caso a un CPD local.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img10.png' alt='Resolución anticipada')
+
+          .separador2
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Auditabilidad
+            .row
+              .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
+                p Recordemos que en la cláusula de protección de datos se ha indicado la necesidad de que el proveedor disponga de una certificación que acredite su <b>SGSI</b> (Sistema de Gestión de la Seguridad) y su <b>SGCN</b> (Sistema de Gestión de Continuidad del Negocio).
+                p Estos sistemas, requieren un proceso de re-certificación mediante auditorías oficiales, al menos cada dos años que aseguren el cumplimiento de la norma.
+                p Independientemente, el cliente puede pactar una cláusula de inspección o derecho a auditar el datacenter que le presta servicios de la nube. Sin olvidar que puede acarrear problemas de distancia, pues este centro puede estar ubicado en cualquier lugar del mundo y que el auditor, la mayoría de las veces, puede no disponer de la plantilla de la empresa del cliente.
+              .col-md-5(data-aos="fade-left")
+                img(src='@/assets/curso/tema1-4-1-img11.png' alt='Auditabilidad')
 
 
 
