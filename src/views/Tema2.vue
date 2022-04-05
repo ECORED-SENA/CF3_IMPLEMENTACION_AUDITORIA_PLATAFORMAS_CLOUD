@@ -52,6 +52,7 @@
 
     Separador
 
+
     #t_2_2
       .titulo-segundo.color-acento-contenido
         h2 2.2	Metodología de gestión del riesgo
@@ -81,11 +82,175 @@
               img(src='@/assets/curso/tema2-2-infog2.svg', alt='Una forma típica de describir los eventos relacionados con el estado de incertidumbre es mediante el uso de los términos de amenaza y vulnerabilidad')
 
           .row.justify-content-evenly
-            .col-md-6
+            .col-md-6(data-aos="fade-right") 
               p Típicamente, contra las amenazas no se pueden introducir acciones específicas; por ejemplo, amenazas naturales. Pero sí en las vulnerabilidades reduciendo la posibilidad de materialización de las amenazas que aprovechan las vulnerabilidades asociadas a cada activo en particular.
               p Por ejemplo, en relación a las amenazas naturales que puedan afectar a los equipos informáticos que dan soporte a la nube se pueden reducir las debilidades a los que están expuestos con elementos de protección contra rayos en los edificios en los que están ubicados, situarse en pisos elevados del nivel del suelo para situaciones de inundaciones, generadores eléctricos para el caso de corte de tendidos aéreos por vientos fuertes y, en el caso de la nube, migración de las instancias a otras ubicaciones geográficas no afectadas por catástrofes naturales aprovechando el beneficio de la abstracción de las máquinas virtuales de un hardware concreto.
-            .col-md-4
+            .col-md-4(data-aos="fade-left")
               img(src='@/assets/curso/tema2-2-img2.png' alt='Imagen decorativa')
+
+    .row.mb-4
+      .col-md-1
+      .col-md-5.mb-4(data-aos="fade-right") 
+        img(src='@/assets/curso/tema2-2-img3.png' alt='Imagen decorativa')
+      .col-md-1
+      .col-md-5(data-aos="fade-left")
+        p El riesgo es una parte inherente a las actividades de cualquier negocio que afecta sus operaciones y actividades, lo que los lleva a implementar procesos adecuados de gestión de riesgos para gestionar y tratar dichos riesgos de manera efectiva.
+        p Las organizaciones más exitosas tienen la capacidad de identificar y gestionar riesgos, antes de que esos riesgos se conviertan en realidades destructivas que perjudiquen la reputación de la organización y su capacidad para operar, presentamos a continuación los pasos indicados en el estándar que toda metodología debe incluir para una evaluación completa de los riesgos.
+
+    TabsB.color-acento-botones.tema2-2
+      .py-4.py-md-5(titulo="Criterios de riesgos" :icono="require('@/assets/curso/tema2-1-ico-tab1.svg')")
+        .row.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            p Términos de referencia frente a los cuales se evalúa la importancia de un riesgo, esto implica la decisión en:
+            ul.lista-ul--color.color-acento-botones.mb-0 
+              li.mb-2 
+                i.fas.fa-play
+                | La naturaleza y el tipo de consecuencias que deben incluirse y cómo van a ser medidas.
+              li.mb-2 
+                i.fas.fa-play
+                | La forma en que expresaremos los niveles de probabilidad. 
+              li.mb-2 
+                i.fas.fa-play
+                | Cómo determinará el nivel de riesgo aceptable.
+              li.mb-2 
+                i.fas.fa-play
+                | Los criterios por los que se decidirá cuando un riesgo requiere tratamiento y cuando no.
+              li.mb-2
+                i.fas.fa-play
+                | Los criterios para decidir cuándo un riesgo es aceptable y/o tolerable.
+              li.mb-2 
+                i.fas.fa-play
+                | Si tendremos en cuenta o no las combinaciones de diferentes escenarios de riesgo.        
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema2-2-tab1.png', alt='Imagen decorativa')
+
+      .py-4.py-md-5(titulo="Identificación del riesgo" :icono="require('@/assets/curso/tema2-1-ico-tab2.svg')")
+        .row.justify-content-center
+          .col-md-6.mb-4.mb-md-0
+            p Proceso para encontrar, reconocer y describir el riesgo.
+            ul.lista-ul--color.color-acento-botones.mb-0 
+              li.mb-2 
+                i.fas.fa-play
+                | Proceso formal y estructurado que incluya fuentes de riesgo, eventos, sus causas y sus posibles consecuencias. 
+              li.mb-2 
+                i.fas.fa-play
+                | Creación de una lista completa de riesgos (internos y externos) que enfrenta la organización y puede incluir aportes de fuentes como datos históricos, análisis teóricos, opciones de expertos y las necesidades de los interesados. 
+              li.mb-2 
+                i.fas.fa-play
+                | El proceso de identificación de riesgos permite a la organización identificar sus activos, fuentes de riesgo, eventos de riesgo, medidas existentes y consecuencias.
+              li.mb-2
+                i.fas.fa-play
+                | Al identificar dichos elementos, la organización estará lista para comenzar el proceso de análisis de riesgos.      
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema2-2-tab2.png', alt='Imagen decorativa')
+
+      .py-4.py-md-5(titulo="Análisis del riesgo" :icono="require('@/assets/curso/tema2-1-ico-tab3.svg')")
+        .row.justify-content-center
+          .col-md-10
+            p Proceso para comprender la naturaleza del riesgo y determinar el nivel de riesgo. Existen muchos tipos distintos de metodologías y de valoración del riesgo, pero prácticamente todas utilizan uno de los dos siguientes enfoques:
+          .col-md-6.mb-4.mb-md-0
+            ul.lista-ul--color.color-acento-botones.mb-3
+              li.mb-2 
+                i.fas.fa-play
+                | Análisis de riesgos cuantitativo: tiene como objetivo calcular valores numéricos para cada uno de los componentes (activos/actividades/servicios, probabilidades, impacto) identificados durante la valoración del riesgo para desarrollar un análisis de coste/beneficio que sea lo más objetivo posible. 
+              li.mb-2 
+                i.fas.fa-play
+                | Análisis de riesgos cualitativo: Determinar el valor monetario de cada activo (AV) identificado para orientar a la Gerencia en relación a cuánto dinero y tiempo deberían dedicar a su seguridad. Para asignar un valor a un activo se deben calcular los siguientes 4 factores principales:
+            ul.lista-ul--color.color-primario.mb-0 
+              li.mb-0
+                i.fas.fa-check
+                | El valor financiero del activo: calculo directo en términos financieros y utiliza simplificaciones siempre que sean posibles.   
+              li.mb-0
+                i.fas.fa-check
+                | El impacto financiero de perder un activo: el ejemplo más claro podría ser el asociado a la indisponibilidad de la Web de venta online durante x horas.
+              li.mb-0
+                i.fas.fa-check
+                | El impacto indirecto de perder el activo: campañas de publicidad no planificadas y/u ofertas que contrarresten daños a la imagen por incidentes de seguridad.
+              li.mb-0
+                i.fas.fa-check
+                | Es habitual que los análisis utilicen una combinación de ambos enfoques que de denominan análisis de riesgos “Semi”-cualitativos/cuantitativos.    
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema2-2-tab3.png', alt='Imagen decorativa')
+
+      .py-4.py-md-5(titulo="Evaluación del riesgo" :icono="require('@/assets/curso/tema2-1-ico-tab4.svg')")
+        .row.justify-content-center.align-items-center
+          .col-md-10
+            p Proceso de comparación de los resultados del análisis del riesgo con los criterios del riesgo, para determinar si el riesgo, su magnitud o ambos son aceptables o tolerables.
+          .col-md-6.mb-4.mb-md-0
+            ul.lista-ul--color.color-acento-botones.mb-3
+              li.mb-2 
+                i.fas.fa-play
+                | Proceso de comparación de los resultados del análisis del riesgo con los criterios del riesgo, para determinar si el riesgo, su magnitud o ambos son aceptables o tolerables. 
+              li.mb-2 
+                i.fas.fa-play
+                | El resultado de este proceso es un informe de evaluación del riesgo que incluye:
+            ul.lista-ul--color.color-primario.mb-3
+              li.mb-0
+                i.fas.fa-check
+                | Una lista priorizada típicamente con los riesgos más altos comenzando por los no aceptables primero en atención al criterio marcado por la dirección.
+              li.mb-0
+                i.fas.fa-check
+                | Un conjunto de recomendaciones para prevenirlos/ mitigarlos.
+              li.mb-0
+                i.fas.fa-check 
+                | Una vez se dispone del informe de valoración de riesgos existen varias opciones que se deben de considerar para gestionar los riesgos y reducirlos a niveles aceptables.
+              li.mb-0
+                i.fas.fa-check
+                | Evitar: eliminando la causa raíz que origina el riesgo asociado.
+              li.mb-0
+                i.fas.fa-check 
+                | Transferir: trasladar los riesgos asociados del negocio a otras partes, por ejemplo, aseguradores, proveedores.
+              li.mb-0
+                i.fas.fa-check
+                | Reducir: aplicar los controles apropiados que reduzcan el grado de vulnerabilidad, frecuencia y/o impacto.
+              li.mb-0
+                i.fas.fa-check
+                | Aceptar: consentir los riesgos consciente y objetivamente, siempre que satisfagan las políticas y criterios de la organización para la aceptación de los riesgos. 
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema2-2-tab4.png', alt='Imagen decorativa')
+          .col-md-10
+            p La comparación de diferentes soluciones internas/externas considerando las ventajas, inconvenientes, costos (inicio, mantenimiento y ejecución) y capacidad de mitigación y opciones de control permitirá determinar las mejores decisiones.
+
+    Separador
+
+
+    #t_2_3
+      .titulo-segundo.color-acento-contenido
+        h2 2.3	Riesgos políticos y administrativos
+
+    p.mb-5(data-aos="fade") A continuación, se presentan los riesgos más comunes que desde el punto de vista administrativo y político se pueden tener al adquirir servicios en la nube; una presentación condensada de estos se aprecia en la siguiente figura:
+
+
+
+
+
+
+    Separador
+
+
+    #t_2_4
+      .titulo-segundo.color-acento-contenido
+        h2 2.4	Riesgos técnicos
+
+
+
+
+
+    Separador
+
+
+    #t_2_5
+      .titulo-segundo.color-acento-contenido
+        h2 2.5	Riesgos legales       
+
+
+
+
+
 
 
 </template>
