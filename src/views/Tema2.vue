@@ -224,10 +224,109 @@
 
     p.mb-5(data-aos="fade") A continuación, se presentan los riesgos más comunes que desde el punto de vista administrativo y político se pueden tener al adquirir servicios en la nube; una presentación condensada de estos se aprecia en la siguiente figura:
 
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right") 
+      p.mb-0 <b>Figura 1.</b> Riesgos políticos y administrativos.
+    
+    figure.mb-5(data-aos="fade-down")
+      img(src='@/assets/curso/tema2-3-infog.svg', alt='Riesgos políticos y administrativos')
 
+    p.mb-5(data-aos="fade") Un mayor detalle de los aspectos correspondientes a los riesgos políticos y administrativos presentes en la gestión del riesgo se muestran a continuación:
 
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 2.3.1	Vinculación
 
+    .row.mb-4
+      .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
+        img(src='@/assets/curso/tema2-3-1-img.png', alt='Imagen decorativa')
+      .col-md-7
+        p La oferta actual en cuanto a herramientas, procedimientos o formatos de datos normalizados o interfaces de servicio que puedan garantizar la portabilidad del servicio y de los datos es aún escasa, aunque existen algunas iniciativas de estandarización. 
+        p Por este motivo, la migración del servicio de un cliente a otro o la migración de datos y servicios desde un entorno de tecnologías de la información interno o al mismo puede ser muy compleja. Además, los proveedores de servicios cloud pueden tener un incentivo para impedir (directa o indirectamente) la portabilidad de los datos o los servicios de sus clientes.
+        p Esta dependencia potencial de la prestación del servicio de un proveedor de servicios cloud concreto, en función de los compromisos del mismo, puede generar un fracaso catastrófico del negocio si el proveedor va a la quiebra y la ruta de migración de la aplicación y el contenido a otro proveedor es demasiado costosa (en términos económicos o temporales) o no se proporciona una alerta suficiente (no hay alerta temprana).
+    
+    p.text-center(data-aos="fade") Es importante entender que el grado y la naturaleza de la vinculación varían en función del tipo de nube, que se describe a continuación:
 
+    .row.bg-tema-2-3-1
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-0
+        .row.justify-content-center
+          .col-md-6.mb-5
+            img(src='@/assets/curso/tema2-3-1-infog.svg', alt='grado y la naturaleza de la vinculación varían en función del tipo de nube')
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Vinculación SaaS
+            p(data-aos="fade") Los datos del cliente suelen almacenarse en un esquema de base de datos de uso diseñado por el proveedor del SaaS. 
+            p.mb-4(data-aos="fade") No se ofrece una aplicación comercial con una rutina de «exportación» de datos, el cliente tendrá que desarrollar un programa que extraiga sus datos y los escriba en el archivo, dejándolos listos para importarlos a otro proveedor.
+
+          .row.mb-4
+            .col-md-6.mb-4(data-aos="fade-right") 
+              img(src='@/assets/curso/tema2-3-1-img2.svg', alt='Imagen decorativa')
+            .col-md-6(data-aos="fade-left") 
+              p Hay pocos acuerdos formales sobre la estructura de los registros comerciales (por ejemplo, los campos de un registro de cliente en un proveedor de SaaS pueden ser distintos en otro proveedor), aunque existen formatos de archivo subyacentes comunes para la importación y la exportación de datos, por ejemplo, XML. 
+              ul.lista-ul--color.color-acento-botones
+                li 
+                  i.fas.fa-play
+                  | Por lo general, el nuevo proveedor “negocia esta ayuda. Sin embargo, si los datos deben volver a la empresa, el cliente tendrá que escribir rutinas de importación que se ocupan de las comparaciones de datos necesarias, a menos que el proveedor de servicios cloud ofrezca esta rutina. Este punto lleva a evaluar decisiones respecto a la migración, impactando en el interés comercial a largo plazo del proveedor de servicios en cuanto a una portabilidad más fácil, completa y rentable posible.
+                li 
+                  i.fas.fa-play
+                  | La vinculación de la aplicación es la forma más evidente de este servicio (aunque no es específica de los servicios en la nube). Los proveedores de SaaS suelen desarrollar una aplicación personalizada a medida de las necesidades de su mercado objetivo.
+                li 
+                  i.fas.fa-play
+                  | Los clientes de SaaS que poseen una amplia base de usuarios pueden contraer gastos de conmutación muy elevados a la hora de migrar a otro proveedor de SaaS, afectando la experiencia del usuario final (por ejemplo, es necesario realizar un reciclaje de formación). Si el cliente ha desarrollado programas para interactuar con las API de los proveedores directamente (por ejemplo, para integrarse con otras aplicaciones), éstos también deberán ser reescritos para tener en cuenta la API del nuevo proveedor.    
+
+          .row.mb-4
+            .col-md-12
+              .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+                h3.mb-0 Vinculación PaaS
+            .col-md-6(data-aos="fade-right") 
+              p La vinculación PaaS se produce tanto en el nivel de API (llamadas específicas de la API a la plataforma) como a nivel de componente. 
+              p El proveedor de PaaS puede ofrecer un almacenamiento de datos secundario de gran eficacia. El cliente no sólo debe desarrollar un código utilizando las API personalizadas que ofrece el proveedor, sino que también debe codificar las rutinas de acceso a los datos para compatibilizarlas con el almacenamiento de datos secundario. 
+              p Este código no tiene por qué ser portátil entre proveedores de PaaS, incluso si se ofrece una API con un alto grado de compatibilidad, ya que el modelo de acceso a datos puede ser diferente (por ejemplo, relacional frente a codificación «hashing»).
+              ul.lista-ul--color.color-acento-botones
+                li 
+                  i.fas.fa-play
+                  | La vinculación PaaS en el nivel de API se produce cuando distintos proveedores ofrecen distintas API.
+                li 
+                  i.fas.fa-play
+                  | La vinculación PaaS se produce en el nivel de ejecución, puesto que las ejecuciones estándar suelen estar muy personalizadas, a fin de operar de modo seguro en el entorno en la nube, por ejemplo, una ejecución Java puede sufrir la eliminación o la modificación de llamadas «peligrosa s» por motivos de seguridad. Corresponde a los desarrolladores del cliente entender y tener en cuenta estas diferencias.
+                li 
+                  i.fas.fa-play
+                  | PaaS también es objeto de vinculación de datos, del mismo modo que el SaaS, pero en este caso, el cliente es el único responsable de crear rutinas de exportación compatibles.   
+            .col-md-6.mb-4(data-aos="fade-left") 
+              img(src='@/assets/curso/tema2-3-1-img3.svg', alt='Imagen decorativa')
+
+          .row.mb-5
+            .col-md-12
+              .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+                h3.mb-0 Vinculación IaaS
+            .col-md-6.mb-4(data-aos="fade-right") 
+              img(src='@/assets/curso/tema2-3-1-img4.svg', alt='Imagen decorativa')
+            .col-md-6(data-aos="fade-left") 
+              p La vinculación IaaS varía en función de los servicios de infraestructura específicos que se consumen. Por ejemplo, un cliente que utiliza almacenamiento en la nube no se verá afectado por formatos de máquina virtual (VM) no compatibles.
+              ul.lista-ul--color.color-acento-botones
+                li 
+                  i.fas.fa-play
+                  | Los proveedores de computación IaaS ofrecen máquinas virtuales basadas en hipervisor. Los metadatos de VM y software se agrupan por motivos de portabilidad (suele hacerse únicamente dentro de la nube del proveedor). La migración entre proveedores es no trivial hasta que se adoptan normas abiertas, como el formato abierto de virtualización (OVF – Open Virtualization Format).
+                li 
+                  i.fas.fa-play
+                  | Las ofertas de los proveedores de almacenamiento IaaS incluyen desde sencillos almacenajes de datos basados en valores/claves hasta almacenajes basados en archivos mejorados por políticas. Los conjuntos de características varían de forma considerable, y en consecuencia, también lo hace la semántica del almacenamiento. Sin embargo, la dependencia del grado de aplicación de las características específicas de la política (por ejemplo, los controles de acceso) puede limitar la selección de proveedor por parte del cliente.
+                li 
+                  i.fas.fa-play
+                  | La vinculación de datos constituye la preocupación obvia con respecto a los servicios de almacenamiento IaaS. A medida que los clientes en nube empujan más datos para ser almacenados en la nube, la vinculación de los datos aumenta a menos que el CSP permita la portabilidad de los datos.
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 2.3.2	Pérdida de gobernanza
+
+    p.mb-4(data-aos="fade") Al utilizar las infraestructuras de nube, el cliente necesariamente cede el control de una serie de cuestiones que pueden influir en la seguridad al proveedor de servicios cloud, por ejemplo, los términos de uso pueden prohibir el escaneado de puertos, la evaluación de vulnerabilidades y las pruebas de penetración. Además, pueden surgir conflictos entre los procedimientos de refuerzo del cliente y el entorno en nube. Por otra parte, puede ocurrir que los acuerdos de nivel de servicio no incluyan la prestación de dichos servicios por parte del proveedor de servicios cloud, dejando así una laguna en las defensas de seguridad.  
+
+    .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.p-0
+          img(src='@/assets/curso/tema2-3-2-img.png', alt='Imagen decorativa')
+        .col-lg-8  
+          .bloque-texto-a__texto.p-4.ms-3
+            p.mb-0 Asimismo, el proveedor de servicios cloud puede subcontratar o externalizar servicios a terceros (proveedores desconocidos) que podrían no ofrecer las mismas garantías (como la prestación del servicio de manera legal), ofrecidas por el proveedor o que se produzcan cambios en el control del proveedor de servicios cloud, de modo que provoquen una modificación de los términos y condiciones de sus servicios.
+
+    p(data-aos="fade") La pérdida de gobernanza y control podría repercutir gravemente sobre la estrategia de la organización y por tanto, sobre la capacidad de cumplir su misión y sus objetivos. La pérdida de control y gobernanza podría generar la imposibilidad de cumplir los requisitos en materia de seguridad, la falta de confidencialidad, integridad y disponibilidad de los datos, el deterioro del rendimiento y de la calidad del servicio, por no mencionar la introducción de desafíos de cumplimiento
 
     Separador
 
