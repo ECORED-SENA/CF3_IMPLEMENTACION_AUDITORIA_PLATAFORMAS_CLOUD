@@ -63,9 +63,29 @@
       .col-md-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2-2-img.png' alt='Imagen decorativa')
 
+    .row.bg-tema2-2
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.justify-content-center
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Riesgo, efecto e incertidumbre
+            p(data-aos="fade") Riesgo (Risk) se define como el efecto de la incertidumbre sobre los objetivos. El “efecto” es una desviación de lo esperado y puede ser favorable (positivo) o desfavorable (negativo). Habitualmente, los informes de análisis de riesgos de enfocan en los efectos negativos para el estudio de posibles estrategias de gestión que los reduzcan.
+            p.mb-4(data-aos="fade") Adicionalmente, la “incertidumbre “es el estado, incluso parcial, de deficiencia de información relacionada con la comprensión o conocimiento de un evento, su consecuencia o probabilidad.  
+          .col-md-8.mb-5
+            figure
+              img(src='@/assets/curso/tema2-2-infog.svg', alt='El riesgo a menudo se caracteriza por la referencia a posibles “eventos” (Guía ISO 73: 2009) y “consecuencias” (Guía ISO 73: 2009) o una combinación de estos')
+          
+          p.mb-4(data-aos="fade") El riesgo a menudo se expresa en términos de una combinación de las consecuencias de un evento (incluyendo cambios en las circunstancias) y la “probabilidad” asociada (Guía ISO 73: 2009) de ocurrencia. En el contexto de los sistemas de gestión de seguridad de la información, los riesgos de seguridad de la información pueden expresarse como un efecto de incertidumbre sobre los objetivos de seguridad de la información.
+          .col-md-8.mb-5
+            figure
+              img(src='@/assets/curso/tema2-2-infog2.svg', alt='Una forma típica de describir los eventos relacionados con el estado de incertidumbre es mediante el uso de los términos de amenaza y vulnerabilidad')
 
-
-
+          .row.justify-content-evenly
+            .col-md-6
+              p Típicamente, contra las amenazas no se pueden introducir acciones específicas; por ejemplo, amenazas naturales. Pero sí en las vulnerabilidades reduciendo la posibilidad de materialización de las amenazas que aprovechan las vulnerabilidades asociadas a cada activo en particular.
+              p Por ejemplo, en relación a las amenazas naturales que puedan afectar a los equipos informáticos que dan soporte a la nube se pueden reducir las debilidades a los que están expuestos con elementos de protección contra rayos en los edificios en los que están ubicados, situarse en pisos elevados del nivel del suelo para situaciones de inundaciones, generadores eléctricos para el caso de corte de tendidos aéreos por vientos fuertes y, en el caso de la nube, migración de las instancias a otras ubicaciones geográficas no afectadas por catástrofes naturales aprovechando el beneficio de la abstracción de las máquinas virtuales de un hardware concreto.
+            .col-md-4
+              img(src='@/assets/curso/tema2-2-img2.png' alt='Imagen decorativa')
 
 
 </template>
