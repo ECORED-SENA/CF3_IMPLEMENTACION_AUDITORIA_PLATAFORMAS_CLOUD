@@ -466,7 +466,7 @@
                     p Desde la perspectiva del cliente de servicios cloud, una selección de proveedores deficiente y una falta de redundancia en el suministrador puede dar lugar a:
                     p.mb-1 - No disponibilidad del servicio: errores en la entrega (o rendimiento deficiente) de los servicios, tanto en tiempo real como en tiempo no real.
                     p.mb-1 - Poner en peligro el sistema de control del acceso: comprometer la confidencialidad y la integridad de los datos
-                    p.mb-1 - Pérdidas económicas y de renombre: a raíz de la incapacidad de hacer frente a la demanda de los clientes, incumplimiento del acuerdo de nivel de servicio (SLA), error en el servicio de conexión en cascada, etc.
+                    p - Pérdidas económicas y de renombre: a raíz de la incapacidad de hacer frente a la demanda de los clientes, incumplimiento del acuerdo de nivel de servicio (SLA), error en el servicio de conexión en cascada, etc.
                     p.mb-0 Este riesgo también puede derivarse de un ataque DDoS y del mal funcionamiento de las aplicaciones debido a una compartimentación deficiente de la aplicación en algunos sistemas de los proveedores de servicios cloud.
               .col-md-5.px-2.px-md-4(data-aos="fade-left")
                 img(src='@/assets/curso/tema2-4-img.png' alt='Imagen decorativa')
@@ -480,8 +480,21 @@
       .titulo-segundo.color-acento-contenido
         h2 2.5	Riesgos legales       
 
+    p.mb-4(data-aos="fade") Además de la pérdida de información o la intervención malintencionada de terceros, existen otros riesgos que amenazan seriamente los datos almacenados de las organizaciones, bien sea por la intervención directa de una orden judicial, por la pérdida de autonomía de ejecución dentro del territorio, la intrusión a la privacidad de los usuarios e incluso al caducar las licencias. Algunos de estos riesgos de orden legal se explican a continuación:
 
 
+
+    Separador
+
+
+    #t_2_6
+      .titulo-segundo.color-acento-contenido
+        h2 2.6 Riesgos relacionados con la nube
+
+    p.mb-5(data-aos="fade") Durante este componente se identifican las siguientes amenazas no específicas de la computación en la nube, pero que deben considerarse detenidamente a la hora de evaluar el riesgo de un sistema típico basado en la nube, de igual manera, se identifican una serie de vulnerabilidades que pueden ocasionar amenazas y riesgos que afectan los datos y servicios a través de la nube, vea esta información a través de los siguientes puntos:    
+
+    .row(data-aos="fade-down")
+      .col-md-10
 
 
 
