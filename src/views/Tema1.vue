@@ -215,7 +215,7 @@
             h4 Encargado del tratamiento
             p.mb-0 El que ofrece la contratación de computación en nube es un prestador de servicios que en la ley de protección de datos aplicable tiene la calificación de ‘encargado del tratamiento’
         .col-lg-4.mb-4.mb-lg-0
-          img(src='@/assets/curso/tema1-3-2-img.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema1-3-2-img.png', alt='Imagen decorativa', style="width: 300px; margin: 0 auto;")
 
 
     .titulo-tercero.mb-4(data-aos="fade-right") 
