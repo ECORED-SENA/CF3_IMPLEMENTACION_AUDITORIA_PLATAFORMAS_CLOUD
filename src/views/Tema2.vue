@@ -515,7 +515,6 @@
               li 
                 i.fas.fa-play
                 | Software que no es de confianza.      
-
           div
             h5.text-left.mb-4 Gestión de la red (congestión de la red/fallo en la conexión/uso no óptimo)
             p.text-left Vulnerabilidades:
@@ -531,11 +530,147 @@
                 | Ausencia de aislamiento de los recursos. 
               li 
                 i.fas.fa-play
-                | Software que no es de confianza.      
+                | Software que no es de confianza.   
 
+          div
+            h5.text-left.mb-4 Modificación del tráfico de la red
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del alta de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades de la baja de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades en la codificación de la comunicación.
+              li 
+                i.fas.fa-play
+                | Falta de control en el proceso de evaluación de vulnerabilidad.
+          div
+            h5.text-left.mb-4 Escalada de privilegios
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del alta de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades de la baja de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del hipervisor.
+              li 
+                i.fas.fa-play
+                | Funciones y responsabilidades confusas.             
+              li 
+                i.fas.fa-play
+                | Aplicación deficiente de las definiciones de funciones.
+              li 
+                i.fas.fa-play
+                | No aplicación del principio de conocimiento con base a la necesidad justificada (“<em>need-to-know</em>”).
 
+          div
+            h5.text-left.mb-4 Ataques de ingeniería social 
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Ausencia de conciencia de seguridad.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del alta de usuarios.
+              li 
+                i.fas.fa-play
+                | Ausencia de aislamiento de los recursos.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades en la codificación de la comunicación. 
+              li 
+                i.fas.fa-play
+                | Procedimientos de seguridad física inadecuados.  
+          div
+            h5.text-left.mb-4 Pérdida o compromiso de los registros operativos
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Responsabilidad por pérdida de datos.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades AAA.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del alta de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades de la baja de usuarios.             
+              li 
+                i.fas.fa-play
+                | Ausencia de disponibilidad experta.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del sistema o del sistema operativo.
 
+          div
+            h5.text-left.mb-4 Pérdida o compromiso de los registros de seguridad (manipulación de la investigación experta)
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Responsabilidad por pérdida de datos.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades AAA.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del alta de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades de la baja de usuarios. 
+              li 
+                i.fas.fa-play
+                | Ausencia de disponibilidad experta. 
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del sistema o del sistema operativo.
+          div
+            h5.text-left.mb-4 Pérdida o robo de las copias de seguridad
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Procedimientos inadecuados de seguridad física.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del alta de usuarios.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades de la baja de usuarios.
 
+          div
+            h5.text-left.mb-4 Acceso no autorizado
+            p.text-left Dado que los proveedores de servicios cloud concentran los recursos en grandes centros de datos, y aunque es probable que los controles del perímetro físico sean más potentes, el impacto de la corrupción de estos controles será mayor por vulnerabilidades relacionadas con procedimientos de seguridad física inadecuados.
+          div
+            h5.text-left.mb-4 Robo de equipos informáticos
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Procedimientos inadecuados de seguridad física.
+
+          div
+            h5.text-left.mb-4 Catástrofes naturales
+            p.text-left Vulnerabilidades:En términos generales, el riesgo de que se produzcan catástrofes naturales es más bajo, en comparación con las infraestructuras tradicionales, ya que los proveedores de servicios cloud ofrecen múltiples sitios redundantes y rutas de red por defecto.
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Emplazamientos inseguros.
+              li 
+                i.fas.fa-play
+                | Falta de medidas de protección adecuadas (agua, fuego, rayos, emisiones electromagnéticas…).
 
 
 </template>
