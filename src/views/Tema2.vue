@@ -326,16 +326,150 @@
           .bloque-texto-a__texto.p-4.ms-3
             p.mb-0 Asimismo, el proveedor de servicios cloud puede subcontratar o externalizar servicios a terceros (proveedores desconocidos) que podrían no ofrecer las mismas garantías (como la prestación del servicio de manera legal), ofrecidas por el proveedor o que se produzcan cambios en el control del proveedor de servicios cloud, de modo que provoquen una modificación de los términos y condiciones de sus servicios.
 
-    p(data-aos="fade") La pérdida de gobernanza y control podría repercutir gravemente sobre la estrategia de la organización y por tanto, sobre la capacidad de cumplir su misión y sus objetivos. La pérdida de control y gobernanza podría generar la imposibilidad de cumplir los requisitos en materia de seguridad, la falta de confidencialidad, integridad y disponibilidad de los datos, el deterioro del rendimiento y de la calidad del servicio, por no mencionar la introducción de desafíos de cumplimiento
+    p.mb-5(data-aos="fade") La pérdida de gobernanza y control podría repercutir gravemente sobre la estrategia de la organización y por tanto, sobre la capacidad de cumplir su misión y sus objetivos. La pérdida de control y gobernanza podría generar la imposibilidad de cumplir los requisitos en materia de seguridad, la falta de confidencialidad, integridad y disponibilidad de los datos, el deterioro del rendimiento y de la calidad del servicio, por no mencionar la introducción de desafíos de cumplimiento
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 2.3.3	Desafíos de rendimiento
+    
+    p.mb-4(data-aos="fade") Determinadas organizaciones que migran a la nube han realizado inversiones considerables para alcanzar la certificación, bien para lograr una ventaja competitiva o para ajustarse a los requisitos normativos o reglamentarios del sector. Esta inversión puede verse amenazada por la migración a la nube en:
+    
+    .row.bg-tema-2-3-3.mb-4
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-0
+        .row.justify-content-evenly.p-3.d-flex
+          .col-md-3.h-100.mb-4
+            .borde-alto
+            .cajon-azul.px-3.py-4
+              .titulo-azul-degrade.bg-degrade-azul.px-3.py-2.mb-4
+                h4.mb-0.text-white Cumplimiento
+              p.mb-0 Si el Proveedor de Servicios Cloud no puede demostrar su propio cumplimiento de los requisitos pertinentes.
+          .col-md-3.h-100.mb-4
+            .borde-alto
+            .cajon-azul.px-3.py-4
+              .titulo-azul-degrade.bg-degrade-azul.px-3.py-2.mb-4
+                h4.mb-0.text-white Auditoría
+              p.mb-0 Si el Proveedor de Servicios Cloud no permite que el cliente lleve a cabo la auditoría.
+    
+    p.mb-4(data-aos="fade") En determinados casos, también significa que el uso de una infraestructura pública de nube implica que no pueden alcanzarse determinados niveles de cumplimiento y por ello, los servicios de alojamiento en la nube no pueden utilizarse para los servicios que los necesitan.
+
+    .row.justify-content-center.mb-5
+      .col-md-10
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 Por ejemplo, EC2 de Amazon afirma que los clientes estarán presionados para alcanzar el cumplimiento PCI (Estándar de seguridad de datos para la industria de tarjeta de pago o PCI DSS) en su plataforma. Por este motivo, los servicios alojados en EC2 no pueden utilizarse para gestionar transacciones con tarjeta de crédito.
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 2.3.4	Pérdida de renombre empresarial por la prestación conjunta
+    
+    p.mb-4(data-aos="fade") Los recursos compartidos implican la posibilidad de que las actividades maliciosas de un prestador puedan afectar el renombre de otro, por ejemplo, el spam, el escaneado de puertos o la prestación de contenido malicioso de la infraestructura en nube puede ocasionar:
+
+    .row.bg-tema-2-3-4.mb-5
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-0
+        .row.justify-content-evenly.p-3.d-flex
+          .col-md-3.h-100.mb-4
+            .borde-alto
+            .cajon-azul.px-3.py-4
+              .titulo-azul-degrade.bg-degrade-azul.px-3.py-2.mb-4
+                h4.mb-0.text-white Bloqueo
+              p.mb-0 El bloqueo de un rango de direcciones IP, incluidos el atacante y otros proveedores de infraestructura inocentes.
+          .col-md-3.h-100.mb-4
+            .borde-alto
+            .cajon-azul.px-3.py-4
+              .titulo-azul-degrade.bg-degrade-azul.px-3.py-2.mb-4
+                h4.mb-0.text-white Confiscación de recursos
+              p.mb-0 La confiscación de los recursos debido a las actividades de vecindad (orden judicial de vecindad).
+          .col-md-3.h-100.mb-4
+            .borde-alto
+            .cajon-azul.px-3.py-4
+              .titulo-azul-degrade.bg-degrade-azul.px-3.py-2.mb-4
+                h4.mb-0.text-white Servicio deficiente
+              p.mb-0 El impacto puede traducirse en una entrega deficiente del servicio y en la pérdida de datos, así como en problemas para el renombre de la organización.
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 2.3.5	Error o cancelación de servicio en la nube
+
+    .row.justify-content-center.mb-5
+      .col-md-9(data-aos="fade-right") 
+        p Como en cualquier mercado nuevo, la presión de la competencia, una estrategia de negocios inapropiada, la falta de apoyo financiero, etc., pueden provocar el cierre de algunos proveedores o como mínimo, obligarles a reestructurar su oferta de cartera de servicios. 
+        p Dicho de otro modo, es posible que a corto o mediano plazo finalicen algunos servicios de computación en la nube. El impacto de esta amenaza para el cliente de servicios cloud es sencillo de entender, ya que puede dar lugar a una pérdida o al deterioro del rendimiento y de la calidad del servicio, así como a una pérdida de la inversión.
+        p Además, los errores en los servicios subcontratados al proveedor de servicios cloud pueden repercutir considerablemente sobre la capacidad del cliente de estos servicios para cumplir sus funciones y obligaciones para con sus propios clientes. Así, este puede encontrarse expuesto a la responsabilidad contractual y extracontractual frente a sus clientes, basándose en la negligencia de su proveedor. 
+      .col-md-3(data-aos="fade-left")
+        img(src='@/assets/curso/tema2-3-5-img.svg' alt='Imagen decorativa')
+
+    .titulo-tercero.mb-3(data-aos="fade-right") 
+      h3 2.3.6	Fallo en la cadena de suministro
+
+    p(data-aos="fade")  Un proveedor de servicios cloud puede subcontratar determinadas tareas especializadas de su cadena «de producción» a terceros. En esta situación, el nivel de seguridad del proveedor de servicios cloud puede estar supeditado al nivel de seguridad de cada enlace y al grado de dependencia de terceros de este.
+
+    p(data-aos="fade")  Cualquier interrupción o corrupción de la cadena, así como la falta de coordinación de las responsabilidades entre las partes implicadas puede ocasionar:
+
+    .row.tema2-3-6.mb-4
+      .col-md-4
+        .tarjeta.bg-tema2-3-6.p-4.mb-4.mb-md-0
+          img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img1.png' alt='Imagen decorativa')
+          p.text-center.mb-0 La no disponibilidad de los servicios.
+      .col-md-4
+        .tarjeta.bg-tema2-3-6.p-4.mb-4.mb-md-0
+          img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img2.png' alt='Imagen decorativa' style="width: 180px;")
+          p.text-center.mb-0 La pérdida de la confidencialidad, la integridad y la disponibilidad de los datos.
+      .col-md-4
+        .tarjeta.bg-tema2-3-6.p-4
+          img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img3.png' alt='Imagen decorativa' style="width: 250px;")
+          p.text-center.mb-0 Las pérdidas económicas y de renombre, debidas a la incapacidad de cumplir las demandas del cliente.        
+    .row.tema2-3-6.justify-content-evenly.mb-5
+      .col-md-4
+        .tarjeta.bg-tema2-3-6.p-4.mb-4.mb-md-0
+          img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img4.png' alt='Imagen decorativa' style="width: 185px;")
+          p.text-center.mb-0 El incumplimiento de los acuerdos de nivel de servicio (SLA).
+      .col-md-4
+        .tarjeta.bg-tema2-3-6.p-4
+          img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img5.png' alt='Imagen decorativa' style="width: 200px;")
+          p.text-center.mb-0 El fallo en el servicio de conexión en cascada.
+
+    p(data-aos="fade") Un ejemplo importante al respecto es la existencia de una dependencia crítica de un servicio de gestión de identidad o de un inicio de sesión único de un tercero. En este caso, la interrupción del servicio del tercero o de la conexión del proveedor de servicios cloud al servicio o las deficiencias de sus procedimientos de seguridad pueden poner en entredicho la disponibilidad o la confidencialidad de un cliente de servicios cloud, o de hecho, de toda la oferta en la nube.
 
     Separador
 
+    .row.bg-tema-2-4
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.justify-content-center
+          .col-md-12
+            #t_2_4
+              .titulo-segundo.color-acento-contenido
+                h2 2.4	Riesgos técnicos
+            p.mb-5(data-aos="fade") La seguridad de cloud computing presenta los mismos problemas que los sistemas propios (infraestructura no externalizada), pero adicionalmente han surgido otros nuevos, resultado del uso de nuevas tecnologías implementadas como es la virtualización, las arquitecturas orientadas a servicios o las nuevas aplicaciones, que afectan la prestación del servicio desde lo técnico. Algunos de estos riesgos son:    
+            
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+                h3.mb-0 Agotamiento de recursos (prestación excesiva o insuficiente)
+            p.mb-4(data-aos="fade") Un modelado inadecuado del uso de recursos que pudiera concluir en un agotamiento de recursos, debido a un fallo en los algoritmos de provisión de recursos, en donde se presentan varias características, estas son:
 
-    #t_2_4
-      .titulo-segundo.color-acento-contenido
-        h2 2.4	Riesgos técnicos
+            .row.justify-content-center.mb-5
+              .col-md-6.mb-4.mb-md-0.px-2.px-md-4(data-aos="fade-right") 
+                ul.lista-ul--color.color-acento-contenido.mb-2
+                  li 
+                    i.fas.fa-cloud
+                    h4 De qué se trata
+                p Los servicios en la nube son servicios bajo demanda, por tanto, existe un nivel de riesgo calculado en la asignación de todos los recursos de un servicio en la nube, puesto que los recursos se asignan en función de las proyecciones estadísticas.
+              .col-md-6.px-2.px-md-4(data-aos="fade-left")
+                ul.lista-ul--color.color-acento-contenido.mb-2
+                  li 
+                    i.fas.fa-cloud
+                    h4 Uso inadecuado de los recursos
+                p Una forma poco apropiada de la utilización de recursos (los algoritmos de asignación de recursos comunes son vulnerables a la distorsión de la imparcialidad) o una provisión de recursos e inversiones en infraestructura que sea inadecuada, puede dar lugar, desde la perspectiva del proveedor de servicios cloud a:
 
-
+            .row.justify-content-center.mb-5
+              .col-md-7.mb-4.mb-md-0.px-2.px-md-4(data-aos="fade-right") 
+                LineaTiempoD.color-acento-contenido
+                  p.mb-0(numero="1" titulo="No disponibilidad del servicio") Los fallos en determinados escenarios de aplicación muy específicos que utilizan un recurso concreto de manera muy intensiva (es decir, simulación o procesamiento de números intensivo de memoria/CPU (por ejemplo, la previsión de precios de las existencias).
+                  p.mb-0(numero="2" titulo="Poner en peligro el control del acceso") En ocasiones puede ser posible forzar el sistema para que se «abra en fallo» en caso de agotamiento de los recursos.
+                  p.mb-0(numero="3" titulo="Pérdidas económicas y de reputación") Debidas a la incapacidad de hacer frente a la demanda de los clientes.
+                  p.mb-0(numero="4" titulo="Sobredimensionamiento de la infraestructura") Las consecuencias contrarias de una estimación imprecisa de las necesidades en términos de recursos, pueden dar lugar al sobredimensionamiento de la infraestructura, que corresponde a prestación excesiva que genera pérdidas económicas y pérdida de rentabilidad.
+                  .row(numero="5" titulo="Selección deficiente de proveedores") 
+                    p Desde la perspectiva del cliente de servicios cloud, una selección de proveedores deficiente y una falta de redundancia en el suministrador puede dar lugar a:
+                    p.mb-1 - No disponibilidad del servicio: errores en la entrega (o rendimiento deficiente) de los servicios, tanto en tiempo real como en tiempo no real.
+                    p.mb-1 - Poner en peligro el sistema de control del acceso: comprometer la confidencialidad y la integridad de los datos
+                    p.mb-1 - Pérdidas económicas y de renombre: a raíz de la incapacidad de hacer frente a la demanda de los clientes, incumplimiento del acuerdo de nivel de servicio (SLA), error en el servicio de conexión en cascada, etc.
+                    p.mb-0 Este riesgo también puede derivarse de un ataque DDoS y del mal funcionamiento de las aplicaciones debido a una compartimentación deficiente de la aplicación en algunos sistemas de los proveedores de servicios cloud.
+              .col-md-5.px-2.px-md-4(data-aos="fade-left")
+                img(src='@/assets/curso/tema2-4-img.png' alt='Imagen decorativa')
 
 
 
