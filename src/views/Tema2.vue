@@ -484,6 +484,51 @@
 
     p.mb-4(data-aos="fade") Además de la pérdida de información o la intervención malintencionada de terceros, existen otros riesgos que amenazan seriamente los datos almacenados de las organizaciones, bien sea por la intervención directa de una orden judicial, por la pérdida de autonomía de ejecución dentro del territorio, la intrusión a la privacidad de los usuarios e incluso al caducar las licencias. Algunos de estos riesgos de orden legal se explican a continuación:
 
+    .row.mb-5
+      .col-md-12(data-aos="fade-right") 
+        .titulo-tercero.mb-4(data-aos="fade-right") 
+          h3 Órdenes judiciales y descubrimiento electrónico
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right") 
+        p En caso de confiscación de hardware físico a raíz de una orden judicial de las fuerzas policiales o de demandas civiles, la centralización del almacenamiento y el hecho de que varios clientes compartan el hardware físico implica que hay un número mayor de clientes que corren el riesgo de que sus datos se revelen a partes no deseadas.
+        p Al mismo tiempo, podría ser imposible que las fuerzas de una única nación confiscaran «una nube», a la vista de los avances pendientes en torno a la migración de hipervisor a larga distancia.
+      .col-md-6(data-aos="fade-left") 
+        img(src='@/assets/curso/tema2-5-img.jpg', alt='Imagen decorativa')
+
+    .row.mb-5
+      .col-md-12(data-aos="fade-right") 
+        .titulo-tercero.mb-4(data-aos="fade-right") 
+          h3 Riesgo derivado del cambio de jurisdicción
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right") 
+        img(src='@/assets/curso/tema2-5-img2.jpg', alt='Imagen decorativa')
+      .col-md-6(data-aos="fade-left") 
+        p Los datos de los clientes pueden albergarse en múltiples jurisdicciones, algunas de las cuales pueden ser de alto riesgo. Si los centros de datos están ubicados en países de alto riesgo, por ejemplo, aquellos en los que no impera el Estado de derecho cuyo marco jurídico y ejecución de leyes son impredecibles, los Estados policiales autocráticos, los Estados que no respetan los acuerdos internacionales, etc., los sitios podrían ser objeto de incursiones de las autoridades locales y los datos o sistemas podrían ser divulgados o confiscados por la fuerza. 
+        p Cabe señalar que, a este respecto, no queremos dar a entender que todas las medidas para el cumplimiento de la ley mediante órdenes judiciales sean inaceptables, sino simplemente que algunas pueden serlo, y que, en ocasiones, las confiscaciones legítimas de hardware (que parecen ser inusuales) pueden afectar a otros clientes que no son objeto de las actuaciones represivas, dependiendo del modo en que estén almacenados los datos.
+
+    .row.mb-5
+      .col-md-12(data-aos="fade-right") 
+        .titulo-tercero.mb-4(data-aos="fade-right") 
+          h3 Riesgos de la protección de datos
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right") 
+        p La computación en la nube plantea varios riesgos relativos a la protección de datos tanto para clientes en nube como para proveedores de servicios cloud. Se deben tener en cuenta varios aspectos:
+        p 1- Puede ser difícil para el cliente de servicios cloud (en su función de controlador de datos) comprobar eficazmente el procesamiento de datos que lleva a cabo el proveedor, sin certeza del como se gestionan en conformidad con la ley. Es el cliente el principal responsable del procesamiento de datos personales, incluso cuando dicho procesamiento lo realice el proveedor de servicios cloud CSP en su papel de procesador externo. El incumplimiento de la legislación en materia de protección de datos por parte del controlador, puede dar lugar a la imposición de sanciones administrativas, civiles o penales, que varían en función del país. En nubes federadas, en donde puede haber casos de transferencias múltiples de datos, este problema es aún mayor. Aunque, algunos proveedores de servicios cloud sí proporcionan información sobre sus prácticas de procesamiento de datos. Otros también ofrecen resúmenes de certificación sobre sus actividades de procesamiento y seguridad de datos y los controles de datos a que se someten.
+      .col-md-6(data-aos="fade-left") 
+        img(src='@/assets/curso/tema2-5-img3.jpg', alt='Imagen decorativa')
+      .col-md-12(data-aos="fade-right")
+        p 2- Pueden producirse infracciones de la seguridad de los datos que el cliente de servicios cloud no notifique al controlador.
+        p 3- El cliente de servicios cloud puede perder el control de los datos procesados por el proveedor de servicios cloud. Este problema aumenta en los casos de transferencias múltiples de datos (por ejemplo, entre nubes federadas).
+        p 4- El proveedor de servicios cloud puede recibir datos que no hayan sido recabados legalmente por su cliente (el controlador).
+
+    .row.mb-
+      .col-md-12(data-aos="fade-right") 
+        .titulo-tercero.mb-4(data-aos="fade-right") 
+          h3 Riesgos asociados al licenciamiento
+      .col-md-6.mb-4.mb-md-0(data-aos="fade-right") 
+        img(src='@/assets/curso/tema2-5-img4.jpg', alt='Imagen decorativa')
+      .col-md-6(data-aos="fade-left") 
+        p Las condiciones de la licencia, como los acuerdos por puesto, y las comprobaciones de las licencias en línea pueden no ser factibles en un entorno de nube. 
+        p Por ejemplo, si el software se carga por instancia cada vez que una máquina nueva es instanciada, los gastos de licencia para el cliente de servicios cloud podrían aumentar exponencialmente, a pesar de estar utilizando el mismo número de máquinas durante el mismo período. 
+        p En el caso de PaaS e IaaS, existe la posibilidad de crear trabajo original en la nube (nuevas aplicaciones, software, etc.). Al igual que con la propiedad intelectual, si no se encuentra protegido por las cláusulas contractuales apropiadas este trabajo original puede verse amenazado.
+      
 
 
     Separador
