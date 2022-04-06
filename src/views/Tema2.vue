@@ -318,7 +318,7 @@
 
     p.mb-4(data-aos="fade") Al utilizar las infraestructuras de nube, el cliente necesariamente cede el control de una serie de cuestiones que pueden influir en la seguridad al proveedor de servicios cloud, por ejemplo, los términos de uso pueden prohibir el escaneado de puertos, la evaluación de vulnerabilidades y las pruebas de penetración. Además, pueden surgir conflictos entre los procedimientos de refuerzo del cliente y el entorno en nube. Por otra parte, puede ocurrir que los acuerdos de nivel de servicio no incluyan la prestación de dichos servicios por parte del proveedor de servicios cloud, dejando así una laguna en las defensas de seguridad.  
 
-    .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4
+    .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4(data-aos="fade-down") 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0.p-0
           img(src='@/assets/curso/tema2-3-2-img.png', alt='Imagen decorativa')
@@ -351,7 +351,7 @@
     
     p.mb-4(data-aos="fade") En determinados casos, también significa que el uso de una infraestructura pública de nube implica que no pueden alcanzarse determinados niveles de cumplimiento y por ello, los servicios de alojamiento en la nube no pueden utilizarse para los servicios que los necesitan.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-md-10
         .cajon.color-acento-contenido.p-4
           p.mb-0 Por ejemplo, EC2 de Amazon afirma que los clientes estarán presionados para alcanzar el cumplimiento PCI (Estándar de seguridad de datos para la industria de tarjeta de pago o PCI DSS) en su plataforma. Por este motivo, los servicios alojados en EC2 no pueden utilizarse para gestionar transacciones con tarjeta de crédito.
@@ -401,7 +401,7 @@
 
     p(data-aos="fade")  Cualquier interrupción o corrupción de la cadena, así como la falta de coordinación de las responsabilidades entre las partes implicadas puede ocasionar:
 
-    .row.tema2-3-6.mb-4
+    .row.tema2-3-6.mb-4(data-aos="fade-down") 
       .col-md-4
         .tarjeta.bg-tema2-3-6.p-4.mb-4.mb-md-0
           img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img1.png' alt='Imagen decorativa')
@@ -414,7 +414,7 @@
         .tarjeta.bg-tema2-3-6.p-4
           img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img3.png' alt='Imagen decorativa' style="width: 250px;")
           p.text-center.mb-0 Las pérdidas económicas y de renombre, debidas a la incapacidad de cumplir las demandas del cliente.        
-    .row.tema2-3-6.justify-content-evenly.mb-5
+    .row.tema2-3-6.justify-content-evenly.mb-5(data-aos="fade-down") 
       .col-md-4
         .tarjeta.bg-tema2-3-6.p-4.mb-4.mb-md-0
           img.centrar-img.mb-4(src='@/assets/curso/tema2-3-6-img4.png' alt='Imagen decorativa' style="width: 185px;")
@@ -473,6 +473,8 @@
 
 
 
+
+
     Separador
 
 
@@ -493,8 +495,45 @@
 
     p.mb-5(data-aos="fade") Durante este componente se identifican las siguientes amenazas no específicas de la computación en la nube, pero que deben considerarse detenidamente a la hora de evaluar el riesgo de un sistema típico basado en la nube, de igual manera, se identifican una serie de vulnerabilidades que pueden ocasionar amenazas y riesgos que afectan los datos y servicios a través de la nube, vea esta información a través de los siguientes puntos:    
 
-    .row(data-aos="fade-down")
+    .row.justify-content-center(data-aos="fade-down")
       .col-md-10
+        PasosA.color-acento-botones.mb-5(tipo="n")
+          div
+            h5.mb-4 Brechas en la red
+            p.mb-0 La pérdida de control, compromiso, divulgación no autorizada, adquisición no autorizada o cualquier suceso similar en el que una persona que no sea un usuario autorizado accede o potencialmente accede a información de identificación personal, o un usuario autorizado accede o potencialmente accede a información de identificación personal para un propósito distinto al autorizado.
+            p Es uno de los mayores riesgos, ya que son miles de clientes los que se ven potencialmente afectados al mismo tiempo. Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Configuración deficiente.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del sistema o del sistema operativo.
+              li 
+                i.fas.fa-play
+                | Ausencia de aislamiento de los recursos.
+              li 
+                i.fas.fa-play
+                | Software que no es de confianza.      
+
+          div
+            h5.text-left.mb-4 Gestión de la red (congestión de la red/fallo en la conexión/uso no óptimo)
+            p.text-left Vulnerabilidades:
+            ul.lista-ul--color.color-acento-contenido
+              li 
+                i.fas.fa-play
+                | Configuración deficiente.
+              li 
+                i.fas.fa-play
+                | Vulnerabilidades del sistema o del sistema operativo. 
+              li 
+                i.fas.fa-play
+                | Ausencia de aislamiento de los recursos. 
+              li 
+                i.fas.fa-play
+                | Software que no es de confianza.      
+
+
 
 
 
