@@ -471,8 +471,146 @@
               .col-md-5.px-2.px-md-4(data-aos="fade-left")
                 img(src='@/assets/curso/tema2-4-img.png' alt='Imagen decorativa')
 
+    .col-md-12
+      .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+        h3.mb-0 Fallo de aislamiento 
+
+    p(data-aos="fade") La multiprestación y los recursos compartidos son dos de las características que definen los entornos de la computación en nube: la red, el almacenamiento y la capacidad de computación son compartidos entre múltiples usuarios.    
+
+    .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4(data-aos="fade-down") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-5.mb-4.mb-lg-0.p-0
+          img(src='@/assets/curso/tema2-4-img2.png', alt='Imagen decorativa' style="width: 200px; margin: 0 auto;")
+        .col-lg-7  
+          .bloque-texto-a__texto.p-4.ms-3
+            p.mb-0 Este tipo de riesgos incluye los errores de los mecanismos que separan el almacenamiento, la memoria, el enrutamiento e incluso el renombre entre distintos arrendatarios de la infraestructura compartida (por ejemplo, los denominados ataques de «<em>guest-hopping</em>», los ataques por inyección SQL que exponen los datos de múltiples clientes almacenados en la misma tabla y los ataques por vía alternativa).
+
+    .row.bg-tema-2-4-2
+      .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
+        .row.justify-content-center
+          .col-md-12
+            p.mb-5(data-aos="fade") Cabe señalar que la probabilidad de que se produzca este escenario de incidentes depende del modelo de nube considerado; es probable que sea bajo para las nubes privadas y algo mayor en el caso de nubes públicas. El impacto puede ser una pérdida de datos sensibles o valiosos, perjuicios para el renombre e interrupción del servicio para el proveedor de servicios cloud y sus clientes. 
+            
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 En relación a los miembros maliciosos de un proveedor de servicios cloud, abuso de funciones privilegiadas
+            p(data-aos="fade") Es de anotar que las actividades maliciosas pueden repercutir sobre la confidencialidad, la integridad y la disponibilidad de todos los tipos de datos, IP, todos los tipos de servicios y, por tanto, indirectamente sobre el renombre de la organización, la confianza del cliente y las experiencias de los empleados.
+            p.mb-5(data-aos="fade") Este aspecto puede considerarse especialmente importante en el caso de la computación en la nube, debido a que las arquitecturas en la nube necesitan determinadas funciones de alto riesgo. Entre los ejemplos de estas funciones se incluyen los administradores de sistema de los proveedores de servicios cloud y los proveedores de servicios de seguridad gestionada que se ocupan de los informes de detección de intrusiones y de las respuestas a los incidentes. 
+
+          .col-md-8.mb-5
+            .cajon.color-acento-contenido.p-4(data-aos="fade-down")
+              p.mb-0 A medida que aumenta el uso de la nube, los empleados de los proveedores de servicios cloud se convierten cada vez más en objetivos de las bandas criminales (como ponen de manifiesto los trabajadores de los centros de llamadas del sector de servicios financieros).
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Compromiso de interfaz de gestión (manipulación, disponibilidad de la infraestructura)
+
+          .row.mb-5
+            .col-md-9.mb-4.mb-md-0(data-aos="fade-right") 
+              p Las interfaces de gestión de cliente de un proveedor de servicios cloud público son accesibles a través de Internet, y canalizan el acceso a conjuntos de recursos más grandes (que los proveedores tradicionales de alojamiento), por lo que plantean un riesgo mayor, especialmente cuando se combinan con el acceso remoto y las vulnerabilidades del navegador de web.
+              p Aquí se incluyen las interfaces de cliente que controlan una serie de máquinas virtuales, y lo que es más importante, interfaces de proveedor de servicios cloud que controlan el funcionamiento de todo el sistema en la nube. Es evidente que los proveedores pueden mitigar este riesgo incrementando la inversión en seguridad.
+            .col-md-3(data-aos="fade-left") 
+              img(src='@/assets/curso/tema2-4-img3.png', alt='Imagen decorativa')
+
+          .col-md-12
+            .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+              h3.mb-0 Interceptación de datos
+            p(data-aos="fade") Al ser una arquitectura distribuida, la computación en la nube implica más datos en tránsito que las infraestructuras tradicionales, por ejemplo, los datos deben transferirse para sincronizar múltiples imágenes de máquinas distribuidas, imágenes distribuidas entre múltiples máquinas físicas, entre la infraestructura de la nube y los clientes remotos de web, etc.  
+
+    .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8
+          .bloque-texto-a__texto.p-4.ms-3
+            p.mb-0 Además, la mayor parte del uso del alojamiento de los centros de datos es implementada a través de un entorno de conexión segura de tipo VPN, una práctica que no siempre se sigue en el contexto de la nube.
+        .col-lg-4.mb-4.mb-lg-0
+          img(src='@/assets/curso/tema2-4-img4.png', alt='Imagen decorativa' style="width: 230px; margin: 0 auto;")
+
+    p(data-aos="fade") Los programas espía, la falsificación de IP, los ataques con intermediarios (MITM – Man in the Middle), los ataques por vía alternativa y los ataques en repetición deben considerarse posibles fuentes de amenaza. Además, en ocasiones, el proveedor de servicios cloud no ofrece una cláusula de confidencialidad o de no divulgación o si lo hace, dichas cláusulas no ofrecen garantías suficientes de protección de la información secreta y los conocimientos del cliente que circularán por la nube.
+
+    p.mb-5(data-aos="fade") Asociado a este tipo de riesgo se puede presentar otro llamado <b>Fuga de datos</b> durante la carga/descarga dentro de la nube que se puede ocasionar durante la transferencia de datos entre el proveedor de servicios cloud y el cliente.
 
 
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Eliminación de datos no segura o no eficaz
+
+    p(data-aos="fade") Cuando se cambia de proveedor los recursos se escalan de forma descendente, el hardware físico se reubica, etc., y los datos pueden estar disponibles más allá de la vida indicada en la política de seguridad.
+
+    .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4(data-aos="fade-down") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-5.mb-4.mb-lg-0.p-0
+          img(src='@/assets/curso/tema2-4-img5.png', alt='Imagen decorativa' style="width: 270px; margin: 0 auto;")
+        .col-lg-7  
+          .bloque-texto-a__texto.p-4.ms-3
+            h5 Eliminación de datos no segura
+            p.mb-0 Puede resultar imposible llevar a cabo los procedimientos especificados por la política de seguridad, puesto que la supresión total de los datos sólo es posible mediante la destrucción de un disco que también almacena datos de otros clientes.
+
+    p.mb-5(data-aos="fade") Cuando se realiza una solicitud para suprimir un recurso en nube, en ocasiones el proceso no elimina definitivamente los datos (al igual que con la mayoría de los sistemas operativos). Si se requiere una supresión total de los datos es necesario seguir procedimientos especiales, y puede que la API estándar no soporte esta función (o no pueda realizarse de ningún modo). Si se utiliza una codificación satisfactoria, el nivel de riesgo puede considerarse inferior.
+
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Denegación de servicios
+
+    p.mb-5(data-aos="fade") En los últimos años hemos visto un aumento en el uso de ataques de Denegación de Servicio (DOS) y Denegación de Servicio Distribuido contra varias organizaciones.  El ataque de DOS es cuando los atacantes envían algo de tráfico a los sistemas de destino que ya no pueden proporcionar el servicio a los usuarios legítimos. Las organizaciones de clientes deben determinar qué herramientas de mitigación y protección requieren para garantizar el acceso al servicio de cloud.
+
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Denegación económica de servicio
+
+    p.mb-4(data-aos="fade") Existen distintos escenarios en los que los recursos del cliente de servicios cloud pueden ser utilizados por terceros de forma maliciosa, ocasionando repercusiones de índole económica, entre las consecuencias están:
+
+    AcordionA.tema1-3-4(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row.justify-content-center.align-items-center(titulo="Usurpación de identidad")
+        .col-md-5.mb-4.mb-md-0.ps-md-4
+          p Un atacante utiliza una cuenta y los recursos del cliente para su propio beneficio o para perjudicar económicamente al cliente.
+        .col-md-6
+          img(src='@/assets/curso/tema2-4-tab1.jpg', alt='Usurpación de identidad')
+
+      .row.justify-content-center.align-items-center(titulo="Cliente sin delimitación de recursos")
+        .col-md-5.mb-4.mb-md-0.ps-md-4
+          p El cliente de servicios cloud no ha delimitado de forma efectiva el uso de los recursos abonados y sufre cargas inesperadas en dichos recursos, a través de acciones no maliciosas.
+        .col-md-6
+          img(src='@/assets/curso/tema2-4-tab2.jpg', alt='Cliente sin delimitación de recursos')
+
+      .row.justify-content-center.align-items-center(titulo="Ataques que minan los recursos")
+        .col-md-5.mb-4.mb-md-0.ps-md-4
+          p Un atacante utiliza un canal público para acabar con los recursos medidos del cliente, por ejemplo, si el cliente paga por solicitud de HTTP, un ataque DDoS puede tener este efecto.
+        .col-md-6
+          img(src='@/assets/curso/tema2-4-tab3.jpg', alt='Ataques que minan los recursos')
+
+      .row.justify-content-center.align-items-center(titulo="Ataques de la EdoS")
+        .col-md-5.mb-4.mb-md-0.ps-md-4
+          p La EdoS destruye los recursos económicos; el peor escenario sería la quiebra del cliente o un impacto económico grave. 
+        .col-md-6
+          img(src='@/assets/curso/tema2-4-tab4.jpg', alt='Ataques de la EdoS')            
+
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Pérdida de las claves o certificados de seguridad
+
+    p.mb-5(data-aos="fade") Aquí se incluye la divulgación de las claves secretas (SSL, codificación de archivos, claves privadas del cliente, etc.) o las contraseñas a las partes maliciosas, la pérdida o corrupción de dichas claves o su uso indebido para la autenticación y el no repudio (firma digital).
+
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Realización de escaneos o mapeos de redes y servicios
+
+    p.mb-5(data-aos="fade") El escaneado o la detección maliciosa, así como el mapeo de redes, son amenazas indirectas a los activos en cuestión, pueden utilizarse para recabar información en el contexto de un intento de piratería. Uno de los posibles resultados podría ser la pérdida de la confidencialidad, integridad y disponibilidad de los servicios y datos.
+
+
+    .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
+      h3.mb-0 Compromiso del motor de servicio
+
+    p(data-aos="fade") Cada arquitectura de nube descansa en una plataforma altamente especializada: el motor de servicio que se sitúa por encima de los recursos físicos de hardware y gestiona los recursos del cliente con distintos niveles de abstracción, por ejemplo, en la nube IaaS, este componente del software puede ser el hipervisor. 
+
+    p(data-aos="fade") Este motor de servicio está desarrollado y soportado por los distribuidores de la plataforma en la nube y la comunidad de código abierto en algunos casos. Los proveedores de computación en la nube pueden personalizarlo todavía más.
+
+    .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8.mb-4.mb-lg-0
+          .bloque-texto-a__texto.p-4.ms-3
+            p.mb-0 Como cualquier otra capa de software, el código del motor de servicio puede tener vulnerabilidades, y es proclive a sufrir ataques o errores inesperados. Un atacante puede poner en peligro el motor de servicio, accediendo a él sin autorización desde dentro de una máquina virtual (nube IaaS), el entorno de ejecución (nube PaaS), el conjunto de la aplicación (nube SaaS) o a través de sus API.
+        .col-lg-4
+          img(src='@/assets/curso/tema2-4-img6.png', alt='Imagen decorativa', style="width: 260px; margin: 0 auto;")
+    
+    p(data-aos="fade") El acceso no autorizado al motor de servicio puede servir para escapar al aislamiento entre distintos entornos de cliente (<em>jailbreak</em>) y acceder a los datos contenidos en los mismos, controlarlos y modificar la información almacenada dentro de los mismos de forma transparente (sin que haya una interacción directa con la aplicación dentro del entorno del cliente) o reducir los recursos asignados a los mismos, ocasionando una denegación del servicio.
 
 
     Separador
@@ -527,8 +665,7 @@
       .col-md-6(data-aos="fade-left") 
         p Las condiciones de la licencia, como los acuerdos por puesto, y las comprobaciones de las licencias en línea pueden no ser factibles en un entorno de nube. 
         p Por ejemplo, si el software se carga por instancia cada vez que una máquina nueva es instanciada, los gastos de licencia para el cliente de servicios cloud podrían aumentar exponencialmente, a pesar de estar utilizando el mismo número de máquinas durante el mismo período. 
-        p En el caso de PaaS e IaaS, existe la posibilidad de crear trabajo original en la nube (nuevas aplicaciones, software, etc.). Al igual que con la propiedad intelectual, si no se encuentra protegido por las cláusulas contractuales apropiadas este trabajo original puede verse amenazado.
-      
+        p En el caso de PaaS e IaaS, existe la posibilidad de crear trabajo original en la nube (nuevas aplicaciones, software, etc.). Al igual que con la propiedad intelectual, si no se encuentra protegido por las cláusulas contractuales apropiadas este trabajo original puede verse amenazado. 
 
 
     Separador
