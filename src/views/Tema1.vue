@@ -166,12 +166,12 @@
 
     .row.bg-tema-1-2
       .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
-        .row.mb-5
+        .row.justify-content-center.mb-5
           .col-md-7(data-aos="fade-right")  
             p El cliente que contrata a un prestador de servicios de computación en la nube tiene una obligación legal de rapidez para elegir únicamente un encargado que ofrezca garantías suficientes para aplicar medidas técnicas y organizativas apropiadas, de manera que el tratamiento esté conforme con los requisitos de la legislación aplicable y garantice la protección de los derechos del interesado.
             p Esta rapidez se traducirá dadas las características propias de estos servicios, en una selección de requerimientos de información al proveedor de servicios que estén direccionados a ofrecer las garantías para la protección de los datos personales de los cuales es responsable; todo esto, necesario para decidir sobre la modalidad de nube y el tipo de servicios que contrata y de esta forma, hacer la mejor elección entre sus proveedores.
             p En las administraciones públicas, la computación en la nube, debido al volumen y la sensibilidad de los datos que gestiona soporta unos riesgos específicos, estos deben analizarse de manera puntual, de acuerdo con los escenarios en donde se presente su uso, con lo cual se orienta para la disminución del riesgo el uso de cuidados en la implantación, evitando comprometer los derechos de autor y la seguridad de los ciudadanos. Por ello, es necesario tener presente que hay una regulación internacional en cuanto al movimiento de datos que es aplicable tanto al sector privado como al público.
-          .col-md-5(data-aos="fade-left")
+          .col-md-5.col-9(data-aos="fade-left")
             img(src='@/assets/curso/tema1-2-img1.png' alt='Imagen decorativa')
 
         .tema1-2.bloque-texto-g.color-secundario.p-3.p-sm-4
@@ -226,7 +226,7 @@
 
     .bg-tema1-3-1.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+        .col-10.col-sm-6.col-md-5.mb-4.mb-md-0
           img(src="@/assets/curso/tema1-3-3-img.png")
         .col-md.col-lg-6
           .titulo-segundo.color-acento-botones(data-aos="flip-up")
@@ -382,12 +382,12 @@
       h3 1.3.5	Medidas de seguridad exigibles
 
 
-    .row
+    .row.justify-content-center.mb-4.mb-md-0
       .col-md-8.mb-4.mb-md-0(data-aos="fade-right")  
         p Las medidas de seguridad son indispensables para garantizar la integridad de los datos personales, evitar accesos no autorizados y recuperar la información en caso de que se produzcan incidencias de seguridad.
         p.mb-5  En la Guía para la implementación del principio de responsabilidad demostrada (accountability), establecida por las Superintendencia de Industria y Comercio se indica que las garantías, medidas de seguridad y mecanismos que garanticen la protección de datos personales serán los resultantes de  un sistema de administración de riesgos asociados al tratamiento de datos personales, con el fin de que permitan “identificar, medir, controlar y monitorear todos aquellos hechos o situaciones que puedan incidir en la debida administración del riesgo a que están expuestos en desarrollo del cumplimiento de las normas de protección de datos personales”.
         p Por su parte, la evaluación del riesgo o impacto en la privacidad debería incluir, al menos:
-      .col-md-4(data-aos="fade-left")
+      .col-md-4.col-10(data-aos="fade-left")
         img(src='@/assets/curso/tema1-3-5-img.png' alt='Imagen decorativa')
 
     .row.justify-content-center.bg-2.mb-4.mx-1(data-aos="fade-down")
@@ -457,11 +457,11 @@
             p El proveedor de servicios cloud debe poner a su disposición toda la información necesaria para demostrar el cumplimiento de las medidas de seguridad.
             p.mb-0 El proveedor le puede acreditar que dispone de una certificación de seguridad adecuada mediante un tercero independiente que audite la seguridad. En este caso, debe conocerse la entidad auditora y los estándares reconocidos que aplica.
     
-    .row.mb-md-5
+    .row.mb-5.justify-content-center
       .col-md-9.mb-4.mb-md-0(data-aos="fade-right")  
         p Se debe solicitar información al proveedor sobre cómo se auditarán las medidas de seguridad, el cliente debe ser informado sin dilación indebida por el proveedor sobre las incidencias de seguridad que afecten a los datos de los que el propio cliente es responsable, así como de las medidas adoptadas para resolverlas o de las medidas que el cliente ha de tomar para evitar los daños que puedan producirse, por ejemplo, informar a sus propios clientes sobre cómo proteger su información personal.
         p En cuanto a los compromisos de confidencialidad de los datos personales, el proveedor debe comprometerse a garantizar la confidencialidad utilizando los datos solo para los servicios contratados. Asimismo, debe garantizar que el personal autorizado a tratar datos personales haya suscrito compromisos de confidencialidad o esté sujeto a  obligaciones de confidencialidad estatutarias.
-      .col-md-3(data-aos="fade-left")
+      .col-md-3.col-10(data-aos="fade-left")
         img(src='@/assets/curso/tema1-3-6-img2.png' alt='Imagen decorativa')
 
 
@@ -506,10 +506,10 @@
                 .cajon.color-acento-contenido.p-4
                   p.mb-0 Si bien los contratos comerciales siempre se negocian, en el caso de los proveedores de servicios cloud a menudo no suele existir tal acercamiento de posiciones, pues definen y ponen sus condiciones las que en muchos casos deben de ajustarse los clientes. Por tanto, un buen consejo es negociar el contrato siempre que sea posible o en su defecto estudiar cuidadosamente cada una de las cláusulas propuestas por los diferentes proveedores, hasta encontrar el contrato que mejor satisfaga las necesidades del cliente.
             
-            .row
+            .row.justify-content-center
               .col-md-9.mb-4.mb-md-0(data-aos="fade-right")  
                 p La falta de regulaciones específicas, así como de las funciones y obligaciones recíprocas, conllevan a que estas sean incorporadas en el pliego estándar de condiciones generales, las cuales son elaboradas de forma unilateral por el proveedor del servicio y en su defecto aceptadas por los clientes, sin que medie modificaciones a la medida, o mediante negociaciones o acuerdos. Para lo cual es necesario establecer una diferencia entre el caso de una pequeña o mediana organización, quienes seguramente escogerán entre los diferentes contratos ofrecidos, y una organización grande, quien tendrá mayor libertad de negociar las cláusulas. Las recomendaciones para cláusulas contractuales específicas deben entenderse como preferencias entre ofertas del mercado.
-              .col-md-3(data-aos="fade-left")
+              .col-md-3.col-10(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-img.png' alt='Imagen decorativa')
 
     

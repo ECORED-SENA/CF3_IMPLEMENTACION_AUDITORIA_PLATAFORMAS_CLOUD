@@ -27,10 +27,10 @@
             .titulo-segundo.color-acento-contenido
               h2 2.1	Gestión de las organizaciones basadas en el riesgo
 
-    .row.bg-tema2-1
+    .row.bg-tema2-1.mb-5.mb-md-0
       .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
         .row.align-items-center.justify-content-center
-          .col-md-4.mb-md-0.mb-4(data-aos="fade-right")
+          .col-md-4-col-10.mb-md-0.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/tema2-1-img.png' alt='Imagen decorativa')
           .col-md-7.text-white.esquina.p-3(data-aos="fade-left")
             p Ante la gran variedad de posibles opciones de despliegue de los servicios de nube (XaaS) en entornos públicos, privados o híbridos el enfoque de aplicar un conjunto de controles de seguridad preestablecido no es viable desde el punto de vista técnico, ni económico.
@@ -81,16 +81,16 @@
             figure
               img(src='@/assets/curso/tema2-2-infog2.svg', alt='Una forma típica de describir los eventos relacionados con el estado de incertidumbre es mediante el uso de los términos de amenaza y vulnerabilidad')
 
-          .row.justify-content-evenly
+          .row.justify-content-evenly.mb-5.mb-md-0
             .col-md-6(data-aos="fade-right") 
               p Típicamente, contra las amenazas no se pueden introducir acciones específicas; por ejemplo, amenazas naturales. Pero sí en las vulnerabilidades reduciendo la posibilidad de materialización de las amenazas que aprovechan las vulnerabilidades asociadas a cada activo en particular.
               p Por ejemplo, en relación a las amenazas naturales que puedan afectar a los equipos informáticos que dan soporte a la nube se pueden reducir las debilidades a los que están expuestos con elementos de protección contra rayos en los edificios en los que están ubicados, situarse en pisos elevados del nivel del suelo para situaciones de inundaciones, generadores eléctricos para el caso de corte de tendidos aéreos por vientos fuertes y, en el caso de la nube, migración de las instancias a otras ubicaciones geográficas no afectadas por catástrofes naturales aprovechando el beneficio de la abstracción de las máquinas virtuales de un hardware concreto.
-            .col-md-4(data-aos="fade-left")
+            .col-md-4.col-10(data-aos="fade-left")
               img(src='@/assets/curso/tema2-2-img2.png' alt='Imagen decorativa')
 
-    .row.mb-4
+    .row.mb-4.justify-content-center
       .col-md-1
-      .col-md-5.mb-4(data-aos="fade-right") 
+      .col-md-5.col-10.mb-4(data-aos="fade-right") 
         img(src='@/assets/curso/tema2-2-img3.png' alt='Imagen decorativa')
       .col-md-1
       .col-md-5(data-aos="fade-left")
@@ -121,7 +121,7 @@
               li.mb-2 
                 i.fas.fa-play
                 | Si tendremos en cuenta o no las combinaciones de diferentes escenarios de riesgo.        
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema2-2-tab1.png', alt='Imagen decorativa')
 
@@ -142,7 +142,7 @@
               li.mb-2
                 i.fas.fa-play
                 | Al identificar dichos elementos, la organización estará lista para comenzar el proceso de análisis de riesgos.      
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema2-2-tab2.png', alt='Imagen decorativa')
 
@@ -171,7 +171,7 @@
               li.mb-0
                 i.fas.fa-check
                 | Es habitual que los análisis utilicen una combinación de ambos enfoques que de denominan análisis de riesgos “Semi”-cualitativos/cuantitativos.    
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema2-2-tab3.png', alt='Imagen decorativa')
 
@@ -209,7 +209,7 @@
               li.mb-0
                 i.fas.fa-check
                 | Aceptar: consentir los riesgos consciente y objetivamente, siempre que satisfagan las políticas y criterios de la organización para la aceptación de los riesgos. 
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/tema2-2-tab4.png', alt='Imagen decorativa')
           .col-md-10
@@ -391,7 +391,7 @@
         p Como en cualquier mercado nuevo, la presión de la competencia, una estrategia de negocios inapropiada, la falta de apoyo financiero, etc., pueden provocar el cierre de algunos proveedores o como mínimo, obligarles a reestructurar su oferta de cartera de servicios. 
         p Dicho de otro modo, es posible que a corto o mediano plazo finalicen algunos servicios de computación en la nube. El impacto de esta amenaza para el cliente de servicios cloud es sencillo de entender, ya que puede dar lugar a una pérdida o al deterioro del rendimiento y de la calidad del servicio, así como a una pérdida de la inversión.
         p Además, los errores en los servicios subcontratados al proveedor de servicios cloud pueden repercutir considerablemente sobre la capacidad del cliente de estos servicios para cumplir sus funciones y obligaciones para con sus propios clientes. Así, este puede encontrarse expuesto a la responsabilidad contractual y extracontractual frente a sus clientes, basándose en la negligencia de su proveedor. 
-      .col-md-3(data-aos="fade-left")
+      .col-md-3.col-9(data-aos="fade-left")
         img(src='@/assets/curso/tema2-3-5-img.svg' alt='Imagen decorativa')
 
     .titulo-tercero.mb-3(data-aos="fade-right") 
