@@ -30,7 +30,7 @@
             #t_1_1
             .titulo-segundo.color-acento-contenido
               h2 1.1	Distribución de las responsabilidades en seguridad
-            p A nivel mundial se han desarrollado normativas frente a la protección de los datos personales, incluso, en organizaciones mundiales como la OEA, que desde el año 1996 ha venido aprobando resoluciones enmarcadas en la protección de los datos personales, de hecho, el pasado 9 de abril de 2021 el Comité Jurídico Iberoamericano (JCI) aprobó los principios actualizados sobre la Privacidad y la protección de datos personales.
+            p A nivel mundial se han desarrollado normativas frente a la protección de los datos personales, incluso, en organizaciones mundiales como la OEA, que desde el año 1996 ha venido aprobando resoluciones enmarcadas en la protección de los datos personales, de hecho, el pasado 9 de abril de 2021 el Comité Jurídico Iberoamericano (JCI) aprobó los principios actualizados sobre la <b>Privacidad y la protección de datos personales</b>.
             p La computación en la nube obliga a que se establezcan acuerdos y la aplicación de la normativa jurídica en materia de la oferta de servicios en la nube, entre quienes ofrecen el servicio como proveedores y quienes consumen los servicios como clientes. Las diferentes normativas distinguen dos sujetos distintos: el responsable del archivo o del tratamiento de los datos y el encargado del tratamiento.
           .col-md-1
           .col-md-4(data-aos="fade-left")
@@ -62,14 +62,14 @@
               .col-3
                 img(src='@/assets/curso/tema1-slyderf.svg' alt='Icono')
             h3.text-center EL PROPIETARIO DEL PROCESO DE NEGOCIO
-            p.text-center Los owner o dueños de los procesos son regularmente quienes identifican en primer lugar la necesidad de migrar un servicio on-premise o local a la nube y por tanto, conocerá perfectamente los beneficios que espera obtener del nuevo modelo.
+            p.text-center Los <em>owner</em> o dueños de los procesos son regularmente quienes identifican en primer lugar la necesidad de migrar un servicio <em>on-premise</em> o local a la nube y por tanto, conocerá perfectamente los beneficios que espera obtener del nuevo modelo.
             p.text-center Lo que no está tan claro es que se haya dado cuenta de la existencia de riesgos, por lo que otros miembros del equipo deberán velar porque no proceda por su cuenta sin ningún tipo de estrategia para mitigar dichos riesgos.
           .tarjeta.p-4
             .row.justify-content-center.mb-3
               .col-3
                 img(src='@/assets/curso/tema1-slyderf.svg' alt='Icono')
             h3.text-center EL EQUIPO DE GESTIÓN DE PROVEEDORES Y CONTRATOS TI
-            p.text-center Este grupo debe ser el responsable de gestionar la relación global con el proveedor en la nube, inicia con la búsqueda y selección inicial del proveedor de servicios cloud (CSP), interviene en la negociación del contrato, durante la utilización del servicio en la nube y en la finalización del servicio, regularmente son responsables de dirigir y coordinar todas las actividades del equipo a cargo de la migración y despliegue de los servicios en la nube.
+            p.text-center Este grupo debe ser el responsable de gestionar la relación global con el proveedor en la nube, inicia con la búsqueda y selección inicial del proveedor de servicios <em>cloud</em> (CSP), interviene en la negociación del contrato, durante la utilización del servicio en la nube y en la finalización del servicio, regularmente son responsables de dirigir y coordinar todas las actividades del equipo a cargo de la migración y despliegue de los servicios en la nube.
           .tarjeta.p-4
             .row.justify-content-center.mb-3
               .col-3
@@ -130,7 +130,7 @@
             .col-md-10.mb-4.mb-md-2.p-0
               img(src='@/assets/curso/tema1-1-slider3.png', alt='Imagen decorativa')          
             .col-md-10.tema1-1-bg-slider-content.py-3
-              p.text-center.mb-1 Gestionar el cumplimiento del principio de responsabilidad demostrada o accountability, mediante el aseguramiento de la documentación y conservación de las evidencias de todas las actividades desarrolladas para el mantenimiento de la protección de los datos personales de sus titulares.
+              p.text-center.mb-1 Gestionar el cumplimiento del principio de responsabilidad demostrada o <em>accountability</em>, mediante el aseguramiento de la documentación y conservación de las evidencias de todas las actividades desarrolladas para el mantenimiento de la protección de los datos personales de sus titulares.
           .row.justify-content-center
             .col-md-10.mb-4.mb-md-2.p-0
               img(src='@/assets/curso/tema1-1-slider4.png', alt='Imagen decorativa')          
@@ -155,14 +155,14 @@
             .col-md-10.mb-4.mb-md-2.p-0
               img(src='@/assets/curso/tema1-1-slider8.png', alt='Imagen decorativa')          
             .col-md-10.tema1-1-bg-slider-content.py-3
-              p.text-center.mb-1 Asegurarse en general del cumplimiento de las obligaciones legales, y sobre todo, que las autorizaciones se recolecten siempre de manera previa, expresa e informada de los titulares o sus representantes.            
+              p.text-center.mb-1 Asegurarse en general del cumplimiento de las obligaciones legales, y sobre todo, que las autorizaciones se recolectan siempre de manera previa, expresa e informada de los titulares o sus representantes.            
 
     Separador
 
 
     #t_1_2
     .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right") 
-      h2 1.2	Perspectivas según los tipos de servicios y modelos cloud
+      h2 1.2	Perspectivas según los tipos de servicios y modelos <em>cloud</em>
 
     .row.bg-tema-1-2
       .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
@@ -195,7 +195,7 @@
 
 
     .titulo-tercero.mb-3(data-aos="fade-right") 
-      h3 1.3.1	Análisis previo antes de contratar servicios de computación en la nube
+      h3 Análisis previo antes de contratar servicios de computación en la nube
   
     p.mb-5(data-aos="fade") El análisis previo a la contratación de servicios en la nube requiere tener presente condiciones específicas, como puede ver, a continuación:
 
@@ -204,9 +204,9 @@
 
 
     .titulo-tercero.mb-3(data-aos="fade-right") 
-      h3 1.3.2	Implicaciones del cliente en servicios en cloud
+      h3 Implicaciones del cliente en servicios en <em>cloud</em>
 
-    p.mb-5(data-aos="fade") El cliente que contrata servicios de computación en la nube sigue siendo responsable del tratamiento de los datos personales, aunque se contrate con una gran compañía multinacional la responsabilidad en términos de “accountability” no se desplaza al prestador del servicio, ni siquiera incorporando una cláusula en el contrato con esta finalidad.  
+    p.mb-5(data-aos="fade") El cliente que contrata servicios de computación en la nube sigue siendo responsable del tratamiento de los datos personales, aunque se contrate con una gran compañía multinacional la responsabilidad en términos de “<em>accountability</em>” no se desplaza al prestador del servicio, ni siquiera incorporando una cláusula en el contrato con esta finalidad.  
 
     .tema1-3-2.bloque-texto-a.color-secundario.p-3.p-md-2.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -219,7 +219,7 @@
 
 
     .titulo-tercero.mb-4(data-aos="fade-right") 
-      h3 1.3.3	Legislación aplicable
+      h3 Legislación aplicable
 
     p(data-aos="fade") El modelo de computación en la nube hace posible que tanto los proveedores de servicios como los datos almacenados en la nube se encuentren ubicados en cualquier punto del planeta, en cualquier caso, el cliente sigue siendo responsable del tratamiento de los datos, por lo que la normativa aplicable al cliente y al prestador del servicio es la local del país del cliente.
     p.mb-4(data-aos="fade") La aplicación de dicha normativa no puede modificarse contractualmente y aunque le informen acerca de la disociación de los datos personales, no cambia la ley aplicable, ni la responsabilidad del cliente y del prestador del servicio.     
@@ -238,7 +238,7 @@
 
 
     .titulo-tercero.mb-4(data-aos="fade-right") 
-      h3 1.3.4	Obligaciones del cliente de servicios en nube
+      h3 Obligaciones del cliente de servicios en nube
 
     p.mb-0(data-aos="fade") Se debe ser diligente en la elección del prestador del servicio para que le ofrezca garantías suficientes en el cumplimiento de la ley de protección de datos aplicable y en la protección de los derechos de los interesados.
     p(data-aos="fade") Se debe formalizar un contrato con las garantías indicadas en el apartado “las garantías contractuales”.
@@ -341,22 +341,7 @@
         .row.justify-content-center
           .col-md-12
             p.mb-4(data-aos="fade") Es preciso resaltar que la regulación sobre datos personales en Colombia impone cargas probatorias en cabeza de los responsables del tratamiento. Es así como en el siguiente recurso educativo se explican en brevedad:
-          .col-md-10
-            ul.lista-ul--color.color-acento-botones.mb-4
-              li 
-                i.fas.fa-play
-                | Relevancia de la ubicación de los datos personales.
-              li 
-                i.fas.fa-play
-                | La localización de los datos es necesaria porque las garantías exigibles para su protección rigen de diferente forma, según los países en que se encuentren. 
-              li 
-                i.fas.fa-play
-                | Existen acuerdos bilaterales o reglamentos vinculantes para diferentes regiones geográficas, estas ofrecen garantías suficientes y no se considera legalmente que exista una transferencia internacional de datos. 
-                br
-                | Si los datos están localizados en países que no pertenecen al mismo espacio o región amparada por acuerdos en este nivel, al tener una transferencia internacional de datos, dependiendo del país en que se encuentren, deberán proporcionarse garantía
-              li 
-                i.fas.fa-play
-                | Las garantías consideradas adecuadas para las transferencias internacionales de datos regulan bajo consideraciones como:
+         
           .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
             p.mb-0 Conservar prueba de haber informado al titular al momento de solicitarle la autorización, de manera clara y expresa lo que ordena el Artículo 12 de la Ley 1581 de 2012 y, cuando el titular lo solicite, entregarle copia de ello.
           .col-md-10.bg-acento-contenido.mb-2.py-3.r-5
@@ -379,13 +364,13 @@
 
 
     .titulo-tercero.mb-4(data-aos="fade-right") 
-      h3 1.3.5	Medidas de seguridad exigibles
+      h3 Medidas de seguridad exigibles
 
 
     .row.justify-content-center.mb-4.mb-md-0
       .col-md-8.mb-4.mb-md-0(data-aos="fade-right")  
         p Las medidas de seguridad son indispensables para garantizar la integridad de los datos personales, evitar accesos no autorizados y recuperar la información en caso de que se produzcan incidencias de seguridad.
-        p.mb-5  En la Guía para la implementación del principio de responsabilidad demostrada (accountability), establecida por las Superintendencia de Industria y Comercio se indica que las garantías, medidas de seguridad y mecanismos que garanticen la protección de datos personales serán los resultantes de  un sistema de administración de riesgos asociados al tratamiento de datos personales, con el fin de que permitan “identificar, medir, controlar y monitorear todos aquellos hechos o situaciones que puedan incidir en la debida administración del riesgo a que están expuestos en desarrollo del cumplimiento de las normas de protección de datos personales”.
+        p.mb-5 En la <b>Guía para la implementación del principio de responsabilidad demostrada</b> (<em>accountability</em>), establecida por las Superintendencia de Industria y Comercio se indica que las garantías, medidas de seguridad y mecanismos que garanticen la protección de datos personales serán los resultantes de  un sistema de administración de riesgos asociados al tratamiento de datos personales, con el fin de que permitan “identificar, medir, controlar y monitorear todos aquellos hechos o situaciones que puedan incidir en la debida administración del riesgo a que están expuestos en desarrollo del cumplimiento de las normas de protección de datos personales”.
         p Por su parte, la evaluación del riesgo o impacto en la privacidad debería incluir, al menos:
       .col-md-4.col-10(data-aos="fade-left")
         img(src='@/assets/curso/tema1-3-5-img.png' alt='Imagen decorativa')
@@ -404,7 +389,9 @@
             | La identificación y clasificación de los riesgos, así como la adopción de medidas para mitigarlos.
           li 
             i.fas.fa-play
-            | Las medidas previstas para afrontar los riesgos, incluidas las garantías, los controles de seguridad, el diseño de software, las tecnologías y mecanismos que garanticen la protección de datos personales, teniendo en cuenta los derechos e intereses legítimos de los titulares de los datos y de otras personas eventualmente afectadas.
+            p.mb-0 Las medidas previstas para afrontar los riesgos, incluidas las garantías, los controles de seguridad, el diseño de 
+              span.italic software, 
+              | las tecnologías y mecanismos que garanticen la protección de datos personales, teniendo en cuenta los derechos e intereses legítimos de los titulares de los datos y de otras personas eventualmente afectadas.
 
     .row.mb-md-5
       .col-md-6.mb-4.mb-md-0(data-aos="fade-right")  
@@ -445,7 +432,7 @@
     p.mb-5.text-center(data-aos="fade") No se debe olvidar las garantías de cumplimiento y adherencia continua de estas medidas con base al programa integral de gestión de datos personales.
 
     .titulo-tercero.mb-5(data-aos="fade-right") 
-      h3 1.3.6	Garantías de cumplimiento de las medidas de seguridad
+      h3 Garantías de cumplimiento de las medidas de seguridad
 
     .tema1-3-6.bloque-texto-a.color-secundario.p-3.p-md-2.mb-4
       .row.m-0.align-items-center.justify-content-between
@@ -454,7 +441,7 @@
         .col-lg-8  
           .bloque-texto-a__texto.p-4.ms-3
             p Como cliente se debe tener la opción de comprobar las medidas de seguridad, incluidos los registros que permiten conocer quién ha accedido a los datos de los que es responsable.
-            p El proveedor de servicios cloud debe poner a su disposición toda la información necesaria para demostrar el cumplimiento de las medidas de seguridad.
+            p El proveedor de servicios <em>cloud</em> debe poner a su disposición toda la información necesaria para demostrar el cumplimiento de las medidas de seguridad.
             p.mb-0 El proveedor le puede acreditar que dispone de una certificación de seguridad adecuada mediante un tercero independiente que audite la seguridad. En este caso, debe conocerse la entidad auditora y los estándares reconocidos que aplica.
     
     .row.mb-5.justify-content-center
@@ -466,7 +453,7 @@
 
 
     .titulo-tercero.mb-4(data-aos="fade-right") 
-      h3 1.3.7	Garantías de recuperar los datos personales (portabilidad)
+      h3 Garantías de recuperar los datos personales (portabilidad)
 
     .row.bg-tema-1-3-7
       .col-lg-12.px-lg-5.px-4.py-4.pb-md-5
@@ -491,7 +478,7 @@
             .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right") 
               h2 1.4	Acuerdos de nivel de servicio
 
-            p.mb-4(data-aos="fade") Cualquier actividad empresarial, incluyendo la contratación de servicios de computación en la nube se debe regular mediante un contrato la relación entre el proveedor de servicios (en este caso el proveedor de servicios cloud CSP) y el cliente (en este caso, el contratante). A continuación, se mostrarán de manera genérica algunas cláusulas que deberían ser consideradas:
+            p.mb-4(data-aos="fade") Cualquier actividad empresarial, incluyendo la contratación de servicios de computación en la nube se debe regular mediante un contrato la relación entre el proveedor de servicios (en este caso el proveedor de servicios <em>cloud</em> CSP) y el cliente (en este caso, el contratante). A continuación, se mostrarán de manera genérica algunas cláusulas que deberían ser consideradas:
 
             ul.lista-ul--color.color-acento-botones.mb-4(data-aos="fade")
               li 
@@ -504,7 +491,7 @@
             .row.justify-content-center.mb-4(data-aos="fade-down")
               .col-md-10
                 .cajon.color-acento-contenido.p-4
-                  p.mb-0 Si bien los contratos comerciales siempre se negocian, en el caso de los proveedores de servicios cloud a menudo no suele existir tal acercamiento de posiciones, pues definen y ponen sus condiciones las que en muchos casos deben de ajustarse los clientes. Por tanto, un buen consejo es negociar el contrato siempre que sea posible o en su defecto estudiar cuidadosamente cada una de las cláusulas propuestas por los diferentes proveedores, hasta encontrar el contrato que mejor satisfaga las necesidades del cliente.
+                  p.mb-0 Si bien los contratos comerciales siempre se negocian, en el caso de los proveedores de servicios <em>cloud</em> a menudo no suele existir tal acercamiento de posiciones, pues definen y ponen sus condiciones las que en muchos casos deben de ajustarse los clientes. Por tanto, un buen consejo es negociar el contrato siempre que sea posible o en su defecto estudiar cuidadosamente cada una de las cláusulas propuestas por los diferentes proveedores, hasta encontrar el contrato que mejor satisfaga las necesidades del cliente.
             
             .row.justify-content-center
               .col-md-9.mb-4.mb-md-0(data-aos="fade-right")  
@@ -514,14 +501,14 @@
 
     
     .titulo-tercero.mb-4(data-aos="fade-right") 
-      h3 1.4.1 Aspectos de referencia en la contratación de servicios en la nube
+      h3 Aspectos de referencia en la contratación de servicios en la nube
 
     p.mb-5(data-aos="fade") Existen algunos aspectos relevantes a tener en cuenta al llevar a cabo un contrato de servicios en la nube, que permiten amparar a la organización, a la vez que posibilitan exigir a los prestadores de servicio mayor control en la negociación, estos aspectos clave se detallan, a continuación:
 
     .titulo-personalizado.text-white.mb-4(data-aos="fade-right") 
       h3.mb-0 Seguridad de los datos
 
-    p(data-aos="fade") Esta cláusula debe asegurar que el proveedor de servicios cloud puede proporcionar suficientes medidas de seguridad de los tratamientos, tanto técnicas como organizativas y que garantice el cumplimiento de las mismas.
+    p(data-aos="fade") Esta cláusula debe asegurar que el proveedor de servicios <em>cloud</em> puede proporcionar suficientes medidas de seguridad de los tratamientos, tanto técnicas como organizativas y que garantice el cumplimiento de las mismas.
 
     p.mb-4(data-aos="fade") La seguridad pese a ser un concepto muy amplio, se entiende que debe garantizar los siguientes aspectos:
 
@@ -532,7 +519,7 @@
         ul.lista-ul--color.color-acento-botones.mb-4(data-aos="fade")
           li 
             i.fas.fa-play
-            | Disponibilidad: información disponible pueda cuando se necesite.
+            | Disponibilidad: información disponible para cuando se necesite.
           li 
             i.fas.fa-play
             | Confidencialidad: información disponible exclusivamente para personas autorizadas.
@@ -549,7 +536,7 @@
             i.fas.fa-play
             | Trazabilidad: comprobación en qué momento, quién hizo qué.        
 
-    p.mb-4(data-aos="fade") Se debe hacer constar en el contrato de prestación de servicios que el proveedor de servicios cloud disponga de certificaciones <b>ISO 27001 (certifica el SGSI o Sistema de Gestión de Seguridad de la Información), ISO 22301 (certifica el SGCN o Sistema de Gestión de Continuidad del Negocio)</b> o cualquier otra acreditada por una entidad reconocida de certificación es un aspecto de garantía.
+    p.mb-4(data-aos="fade") Se debe hacer constar en el contrato de prestación de servicios que el proveedor de servicios <em>cloud</em> disponga de certificaciones <b>ISO 27001 (certifica el SGSI o Sistema de Gestión de Seguridad de la Información), ISO 22301 (certifica el SGCN o Sistema de Gestión de Continuidad del Negocio)</b> o cualquier otra acreditada por una entidad reconocida de certificación es un aspecto de garantía.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
@@ -565,7 +552,8 @@
               h3.mb-0 Protección de datos
             .row
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
-                p Esta cláusula se refiere a las medidas obligatorias de seguridad de los datos que puedan afectar al proveedor de servicios cloud o al cliente, por estar sujetos a una regulación específica. Su incumplimiento puede representar acciones legales y procedimientos sancionadores.
+                p Esta cláusula se refiere a las medidas obligatorias de seguridad de los datos que puedan afectar al proveedor de servicios <em>cloud</em> o al cliente, por estar sujetos a una regulación específica. Su incumplimiento puede representar acciones legales y procedimientos sancionadores.
+                p Hay un estándar internacional, <b>la norma ISO/IEC 27018:2019 <em>Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors</em></b>, que establece objetivos de control, controles y pautas para implementar medidas para proteger la Información Identificativa Personal (PII) de acuerdo con los principios de privacidad en entornos de computación en la nube.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img2.png' alt='Protección de datos')
           
@@ -589,7 +577,7 @@
             .row
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
                 p Es el conjunto de leyes y normas a las que debe ajustarse el contrato, cada país tiene restricciones y requerimientos específicos amparados en la  legislación aplicable a los datos, principalmente si son de naturaleza personal.
-                p El contrato debe reflejar a qué legislación se someterán los datos y su tratamiento con relación al cliente (responsable del tratamiento o <em>data controller</em>) y el proveedor de servicios cloud (encargado del tratamiento o <em>data processor</em>).
+                p El contrato debe reflejar a qué legislación se someterán los datos y su tratamiento con relación al cliente (responsable del tratamiento o <em>data controller</em>) y el proveedor de servicios <em>cloud</em> (encargado del tratamiento o <em>data processor</em>).
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img4.png' alt='Legislación aplicable')
 
@@ -600,7 +588,7 @@
               h3.mb-0 Confidencialidad
             .row.align-items-center
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
-                p Deben contemplarse las obligaciones del proveedor de servicios cloud en lo referente a la confidencialidad, es decir, que no revelará los datos a terceras personas.
+                p Deben contemplarse las obligaciones del proveedor de servicios <em>cloud</em> en lo referente a la confidencialidad, es decir, que no revelará los datos a terceras personas.
                 .cajon.color-acento-contenido.p-4.mb-2
                   p.mb-0 La cláusula recogerá que todo el personal empleado o colaborador (técnico, administrativo, de apoyo o de mantenimiento) del proveedor de computación en la nube, que por cuestiones de operativa tenga o pueda tener acceso a los datos del cliente, habrá firmado una cláusula de confidencialidad. El proveedor, por tanto, responderá ante cualquier actuación dolosa o negligente de estos.
                 .cajon.color-acento-botones.p-4.mb-3
@@ -617,13 +605,13 @@
             .row.mb-4.mb-md-5
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
                 p La cláusula de propiedad intelectual es importante tenerla en cuenta. En su contexto amplio del derecho, se refiere a los derechos de autor, patentes, marcas y diseño industrial.
-                p Es decir, puede referirse a que todo el trabajo que se ha realizado durante el ciclo de vida del contrato de servicios en la nube, apoyándose en las utilidades que el proveedor de servicios cloud proporciona son propiedad intelectual del cliente o de terceros que le han cedido el derecho de uso mediante las correspondientes licencias.
+                p Es decir, puede referirse a que todo el trabajo que se ha realizado durante el ciclo de vida del contrato de servicios en la nube, apoyándose en las utilidades que el proveedor de servicios <em>cloud</em> proporciona son propiedad intelectual del cliente o de terceros que le han cedido el derecho de uso mediante las correspondientes licencias.
                 p Según el modelo de entrega de servicios en la nube que se tenga contratado, puede ser más o menos difícil de determinar:
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img6.png' alt='Propiedad intelectual')
             p <b>1. LaaS:</b> dicho modelo de entrega equivale a contratar un servidor virtual completamente vacío, solo dispone del sistema operativo. Por tanto, todo su contenido será del cliente; al proveedor no le corresponde derecho alguno.
 
-            p <b>2. PaaS:</b> en este caso, además del sistema operativo suele incorporar una BB.DD., utilitarios de programación, “web services”, etc. Todas las aplicaciones que desarrolle el cliente con esas herramientas de programación u otras que adicione, junto a sus datos asociados serán de su propiedad y no generarán derecho alguno a favor del proveedor.
+            p <b>2. PaaS:</b> en este caso, además del sistema operativo suele incorporar una BB.DD., utilitarios de programación, “<em>web services</em>”, etc. Todas las aplicaciones que desarrolle el cliente con esas herramientas de programación u otras que adicione, junto a sus datos asociados serán de su propiedad y no generarán derecho alguno a favor del proveedor.
 
             p <b>3. SaaS:</b> en este caso, el cliente se limita a utilizar una aplicación o conjunto integrado de ellas en modalidad de computación en la nube. Por tanto, serán solo de su propiedad, los trabajos y datos en general que allí almacene.
 
@@ -637,7 +625,7 @@
                 p Al revisar sus obligaciones contractuales respectivas, las partes (proveedor y cliente) deben proteger aquellas que representen un riesgo significativo para ellos, mediante la inclusión en este apartado de cláusulas económicas de remediación u obligaciones de indemnizar en caso de incumplimiento de la otra parte de sus obligaciones contractuales o que se produzcan desviaciones en el nivel de servicio.
                 .cajon.color-acento-contenido.p-4.mb-2
                   p Si no es posible, al menos deben revisarse y evaluarse cuidadosamente las cláusulas estándar que  presenta el CSP en su contrato y que normalmente le eximen o limitan su responsabilidad.
-                  p.mb-0 De modo general, salvo aquellas cuestiones que puedan quedar fuera del ámbito de control o voluntad del prestador del servicio, el proveedor debería responsabilizarse frente al cliente de cualquier daño o perjuicio que pudiera surgir a consecuencia de la suscripción del contrato de prestación de servicios de cloud.
+                  p.mb-0 De modo general, salvo aquellas cuestiones que puedan quedar fuera del ámbito de control o voluntad del prestador del servicio, el proveedor debería responsabilizarse frente al cliente de cualquier daño o perjuicio que pudiera surgir a consecuencia de la suscripción del contrato de prestación de servicios de <em>cloud</em>.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img7.png' alt='Limitación de responsabilidad')
 
@@ -648,7 +636,7 @@
               h3.mb-0 Transferencia de control
             .row
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
-                p Podría redactarse de forma que, en dicho supuesto, el nuevo gestor que ofrecerá servicios del a  nube se obligue a heredar las actuales condiciones contractuales, o bien el cliente tenga la potestad de rescindir del contrato.
+                p Podría redactarse de forma que, en dicho supuesto, el nuevo gestor que ofrecerá servicios de la nube se obligue a heredar las actuales condiciones contractuales, o bien el cliente tenga la potestad de rescindir del contrato.
                 p Esta cláusula prevé una situación de cambio de control en el proveedor, motivada, por ejemplo, por una compra, absorción o fusión empresarial.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img8.png' alt='Transferencia de control')
@@ -687,7 +675,7 @@
               .col-md-7.mb-4.mb-md-0(data-aos="fade-right")  
                 p Recordemos que en la cláusula de protección de datos se ha indicado la necesidad de que el proveedor disponga de una certificación que acredite su <b>SGSI</b> (Sistema de Gestión de la Seguridad) y su <b>SGCN</b> (Sistema de Gestión de Continuidad del Negocio).
                 p Estos sistemas, requieren un proceso de re-certificación mediante auditorías oficiales, al menos cada dos años que aseguren el cumplimiento de la norma.
-                p Independientemente, el cliente puede pactar una cláusula de inspección o derecho a auditar el datacenter que le presta servicios de la nube. Sin olvidar que puede acarrear problemas de distancia, pues este centro puede estar ubicado en cualquier lugar del mundo y que el auditor, la mayoría de las veces, puede no disponer de la plantilla de la empresa del cliente.
+                p Independientemente, el cliente puede pactar una cláusula de inspección o derecho a auditar el <em>datacenter</em> que le presta servicios de la nube. Sin olvidar que puede acarrear problemas de distancia, pues este centro puede estar ubicado en cualquier lugar del mundo y que el auditor, la mayoría de las veces, puede no disponer de la plantilla de la empresa del cliente.
               .col-md-5(data-aos="fade-left")
                 img(src='@/assets/curso/tema1-4-1-img11.png' alt='Auditabilidad')
 
@@ -706,7 +694,7 @@
             p.mb-5(data-aos="fade") Marcos y estándares sobre las “mejores prácticas” de TI como puede ser ITIL, definen una completa Gestión del Nivel de Servicio, que es bueno consultar previamente a la contratación. Puede ser importante que el proveedor esté certificado en ISO 20000-1, acreditando que dispone de un SGS (Sistema de Gestión de Servicios) eficaz y eficiente, asegurando el cumplimiento de los acuerdos de nivel de servicio o SLA, pactados con el cliente.
 
           .titulo-tercero.mb-4(data-aos="fade-right") 
-            h3 1.4.2 Organizaciones referentes en la contratación de servicios de cloud computing
+            h3 Organizaciones referentes en la contratación de servicios de <em>cloud computing</em>
 
           p.mb-4(data-aos="fade") Más allá de la propia legislación específica aplicable en materia de protección de datos se explican, a continuación, una serie de documentos que acreditan los focos de atención en cada uno de estos, con el fin de hacer un análisis un poco más detallado de aquellos más significativos:
 
@@ -718,7 +706,7 @@
 
       .row.align-items-center.bg-3.p-4(x="9.5%" y="82.3%" numero="+")
         h4 Constitución y creación
-        p.mb-0 La Cloud Security Alliance está dirigida por una amplia coalición constituida por profesionales de la industria, corporaciones, asociaciones y otros actores clave. Nació en el Foro de la AISS CISO en Las Vegas, en noviembre de 2008, empezando a publicar en 2009.
+        p.mb-0 La <em>Cloud Security Alliance</em> está dirigida por una amplia coalición constituida por profesionales de la industria, corporaciones, asociaciones y otros actores clave. Nació en el Foro de la AISS CISO en Las Vegas, en noviembre de 2008, empezando a publicar en 2009.
       .row.align-items-center.bg-3.p-4(x="9.5%" y="94%" numero="+")
         h4 Apartados o cláusulas
         ul.lista-ul--color.color-acento-botones.mb-0 
@@ -748,14 +736,14 @@
             | Seguridad.  
           li.mb-0 
             i.fas.fa-play
-            | Acuerdo de nivel de servicio (sla).              
+            | Acuerdo de nivel de servicio (SLA).              
 
       .row.align-items-center.bg-3.p-4(x="29.7%" y="82.3%" numero="+")
         h4 Constitución y creación
         p.mb-0 ENISA fue creada para mejorar la capacidad de la Unión Europea, sus estados miembros y la comunidad empresarial para prevenir, tratar y dar respuesta a los problemas de seguridad de las redes y la información.
         p.mb-0 Se trata de un centro de conocimientos especializados que marca el ritmo para la Seguridad de la Información en la Unión Europea.
       .row.align-items-center.bg-3.p-4(x="29.7%" y="94%" numero="+")
-        h4 Cuestiones legales
+        h4 Apartados o cláusulas
         ul.lista-ul--color.color-acento-botones.mb-0 
           li.mb-1 
             i.fas.fa-play
@@ -774,10 +762,10 @@
             | Cadenas de subcontratación. 
 
       .row.align-items-center.bg-3.p-4(x="50%" y="82.3%" numero="+")
-        h4 En que consiste
+        h4 Constitución y creación
         p.mb-0 En dicho libro, relaciona 8 áreas a las que debe prestarse especial atención, al evaluar documentos que recojan acuerdos para contratación de servicios bajo el modelo de computación en nube.
       .row.align-items-center.bg-3.p-4(x="50%" y="94%" numero="+")
-        h4 Áreas de interés
+        h4 Apartados o cláusulas
         ul.lista-ul--color.color-acento-botones.mb-0 
           li.mb-1 
             i.fas.fa-play
@@ -805,10 +793,10 @@
             | Transferencia de control (<em><b>Change of Control</b></em>)   
 
       .row.align-items-center.bg-3.p-4(x="70.3%" y="82.3%" numero="+")
-        h4 En que consiste
+        h4 Constitución y creación
         p.mb-0 En su Blog personal ha publicado un artículo referido a las cláusulas críticas en el contrato que regula el computación en nube. La preocupación por el tema se basa en el desplazamiento de datos, información y servicios críticos al exterior de la empresa, convirtiendo a algunos proveedores en una extensión de los recursos corporativos.
       .row.align-items-center.bg-3.p-4(x="70.3%" y="94%" numero="+")
-        h4 Aspectos
+        h4 Apartados o cláusulas
         .row
           .col-md-6
             ul.lista-ul--color.color-acento-botones.mb-0 

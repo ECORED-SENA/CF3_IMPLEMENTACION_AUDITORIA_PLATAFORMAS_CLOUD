@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-4(data-aos="fade") El uso de diversas tecnologías que ofrezcan disponibilidad de múltiples combinaciones, acordes con los cambios que se ven en la economía, la administración e incluso en las políticas públicas, no siempre van de la mano, aunque en la actualidad las organizaciones pequeñas y grandes cada vez demandan más su implementación. Vea que un término en boga es el cloud computing o computación en la nube, que permite entre otras cosas gestionar información de manera remota, su demanda cada vez va en aumento, en donde un conjunto de recursos informáticos configurables se encuentran dispuestos, con un mínimo de esfuerzo e incluso algunas veces sin proveedor de servicios en la nube.
+    p.mb-4(data-aos="fade") El uso de diversas tecnologías que ofrezcan disponibilidad de múltiples combinaciones, acordes con los cambios que se ven en la economía, la administración e incluso en las políticas públicas, no siempre van de la mano, aunque en la actualidad las organizaciones pequeñas y grandes cada vez demandan más su implementación. Vea que un término en boga es el <em>cloud computing</em> o computación en la nube, que permite entre otras cosas gestionar información de manera remota, su demanda cada vez va en aumento, en donde un conjunto de recursos informáticos configurables se encuentran dispuestos, con un mínimo de esfuerzo e incluso algunas veces sin proveedor de servicios en la nube.
     
     .row.bg-degrade-gris-vertical.bg-absoluto
       .col-lg-12.px-lg-5.px-4.py-4.pb-md-5

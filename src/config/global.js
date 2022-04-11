@@ -102,7 +102,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -141,35 +141,36 @@ export default {
   referencias: [
     {
       referencia:
-        'Aspectos profesionales: protección de datos, cloud computing y sistemas de gestión. (2012). Cláusulas contractuales en entornos de cloud computing. [Blog].',
+        'Aspectos profesionales: protección de datos, cloud computing y sistemas de gestión. (2012). <em>Cláusulas contractuales en entornos de cloud computing</em>. [Blog].',
       link:
         'http://www.aspectosprofesionales.info/2012/10/clausulas-contractuales-en-entornos-de.html',
     },
     {
       referencia:
-        'Brun, L. y Bellanova, R. (2018). The role of the European Union Agency for Network and Information Security (ENISA) in the governance strategies of European cybersecurity. Université Catholique de Louvain.',
+        'Brun, L. y Bellanova, R. (2018). <em>The role of the European Union Agency for Network and Information Security (ENISA) in the governance strategies of European cybersecurity</em>. Université Catholique de Louvain.',
     },
     {
-      referencia: 'Ferma. (2003). Estándares de gerencia de riesgos. Ferma. ',
+      referencia:
+        'Ferma. (2003). <em>Estándares de gerencia de riesgos</em>. Ferma. ',
       link:
         'https://www.theirm.org/media/6836/rm_standard_spanish_15_11_04-1.pdf',
     },
     {
       referencia:
-        'ISO/IEC 27005:2018(en) Information technology — Security techniques — Information security risk management. (2021). Foreword.',
+        'ISO/IEC 27005:2018(en) Information technology — Security techniques — Information security risk management. (2021). <em>Foreword.</em>',
       link: 'https://www.iso.org/obp/ui/#iso:std:iso-iec:27005:ed-3:v1:en',
     },
     {
-      referencia: 'ISO 31000. (2021). Risk management.',
+      referencia: 'ISO 31000. (2021). <em>Risk management.</em>',
       link: 'https://www.iso.org/iso-31000-risk-management.html',
     },
     {
       referencia:
-        'Samarati, P., Di Vimercati, S., Murugesan, S. & Bojanova, I. (2016). Cloud security: Issues and concerns. Encyclopedia on cloud computing, p. 1-14.',
+        'Samarati, P., Di Vimercati, S., Murugesan, S. & Bojanova, I. (2016). Cloud security: Issues and concerns. <em>Encyclopedia on cloud computing</em>, p. 1-14.',
     },
     {
       referencia:
-        'Swain, B., Pohlman, M. y Posey, L. (2010). Cloud Security Alliance GRC Stack Training.',
+        'Swain, B., Pohlman, M. y Posey, L. (2010). <em>Cloud Security Alliance GRC Stack Training.</em>',
     },
   ],
   glosario: [
@@ -366,7 +367,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

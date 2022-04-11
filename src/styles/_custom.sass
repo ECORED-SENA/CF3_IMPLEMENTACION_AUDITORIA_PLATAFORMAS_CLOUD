@@ -59,11 +59,11 @@
 .bg-tema-1-2
   background-image: url('../assets/curso/tema1-2-bg1.png')
   background-position: 50% 47%
-  background-size: contain
+  background-size: 100% 100%
   background-repeat: no-repeat
   margin-inline: -3.4rem
   @media screen and (min-width: 1398px)
-    background-size: cover
+    background-size: 100% 100%
     background-position: 50% 37%
   @media screen and ( max-width: 992px)
     background-size: cover 
@@ -110,15 +110,16 @@
     margin-inline: -1.4rem    
 .bg-tema2-1
   background-image: url('../assets/curso/tema2-1-bg1.png')
-  background-position: 50% 50%
-  background-size: 100% 75%
+  background-position: 50% 38%
+  background-size: 100% 80%
   background-repeat: no-repeat
   margin-inline: -3.4rem
-  @media screen and ( max-width: 992px)
+  @media screen and (max-width: 992px)
     background-size: cover 
     margin-inline: -1.4rem    
   @media screen and (min-width: 1398px)
-    background-size: 100% 65%
+    background-size: 100% 80%
+    background-position: 50% 34%
 .bg-tema2-2
   background-image: url('../assets/curso/tema2-2-bg-1.png')
   background-position: 50% 47%
@@ -245,19 +246,24 @@
 .slyder-f.tema1-1 .slyder-f__btn
   width: 9%  
   @media screen and (max-width: 992px)
-    width: 10%
+    width: 10%;
+    padding: 0px !important
 .slyder-f.tema1-1 .slyder-f__btn i
   font-size: 1.5rem
   color: #FFF
   background-color: #E2C140
   border-radius: 50%
-  width: 55px
+  width: 38px
   height: 38px
   display: flex
   justify-content: center
   align-items: center
-  @media screen and ( max-width: 992px)
+  @media screen and (max-width: 1300px)
+    width: 55px
+    height: 55px
+  @media screen and (max-width: 992px)
     font-size: 1rem
+    width: 30px
     height: 30px
 .slyder-f.tema1-1  .slyder-f__main
   border-radius: 35px
