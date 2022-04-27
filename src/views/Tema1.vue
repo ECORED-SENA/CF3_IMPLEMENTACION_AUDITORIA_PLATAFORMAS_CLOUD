@@ -54,7 +54,7 @@
             .row.justify-content-center.mb-3
               .col-3
                 img(src='@/assets/curso/tema1-slyderf.svg' alt='Icono')
-            h3.text-center EL CIO
+            h3.text-center EL CSO
             h4.text-center.italic Chief Security Officer
             p.text-center Responsable del área de informática en conjunto con otros técnicos de su equipo que son los responsables de comparar el nuevo servicio requerido en la nube con el sistema actual, identificando y especificando los puntos de integración entre un servicio en la nube y los sistemas internos, evaluando y gestionando el impacto de la nube en la infraestructura de la empresa, como puede ser en la red de comunicaciones de acceso a Internet. 
           .tarjeta.p-4
@@ -140,12 +140,12 @@
             .col-md-10.mb-4.mb-md-2.p-0
               img(src='@/assets/curso/tema1-1-slider5.png', alt='Imagen decorativa')          
             .col-md-10.tema1-1-bg-slider-content.py-3
-              p.text-center.mb-1 Asegurarse le implementación de la Política de Tratamiento de la Información, el aviso de privacidad y el manual de políticas y procedimientos de protección de datos adecuados a las características propias de la organización.
+              p.text-center.mb-1 Asegurarse de la implementación de la Política de Tratamiento de la Información, el aviso de privacidad y el manual de políticas y procedimientos de protección de datos adecuados a las características propias de la organización.
           .row.justify-content-center
             .col-md-10.mb-4.mb-md-2.p-0
               img(src='@/assets/curso/tema1-1-slider6.png', alt='Imagen decorativa')          
             .col-md-10.tema1-1-bg-slider-content.py-3
-              p.text-center.mb-1 Gestionar y mantener actualizado el Registro Nacional de Bases de Datos – RNBD ante la Súper Intendencia de Industria y Comercio.
+              p.text-center.mb-1 Gestionar y mantener actualizado el Registro Nacional de Bases de Datos – RNBD ante la Superintendencia de Industria y Comercio.
           .row.justify-content-center
             .col-md-10.mb-4.mb-md-2.p-0
               img(src='@/assets/curso/tema1-1-slider7.png', alt='Imagen decorativa')          
